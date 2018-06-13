@@ -113,9 +113,8 @@
 					document.getElementById('other-role').hidden = true;
 				} 
 			">
-			<option>Slave</option>
-			<option>Runaway</option>
-			<option value="other">Other</option>
+			<option>slave</option>
+			<option>runaway</option>
 		</select><input type="text" id="other-role" hidden="true">
 		</div>
 		<div class="header-footer">

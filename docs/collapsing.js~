@@ -39,7 +39,6 @@ function makeCollapsing() {
 		
 		if (!collapsingText.getAttribute("data-expanded")) {			
 			collapsingText.style.display = "none";
-		} else {
 			document.getElementById("expand-arrow-" + i).style.transform = "rotate(-90deg)";
 		}
 		
