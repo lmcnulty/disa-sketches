@@ -283,9 +283,6 @@
 			</div>
 		</div>
 	</div>
-
-	
-	
 	<div class="form-page" id="record">
 		<div class="header-footer">
 			<h1>Add a Record</h1>
@@ -293,46 +290,43 @@
 		<div class="form-body">
 			<h2>Event</h2>
 			<p>
-			<label class="row-item">Event Type</label>			
-			<select onchange="
-				if (this.value == 'other') {
-					document.getElementById('other-record-type').hidden = false;
-				} else {
-					document.getElementById('other-record-type').hidden = true;
-				} 
-			">
-				<option>baptism</option>
-				<option>marriage</option>
-				<option>escape</option>		
-				<option>other</option>	
-			</select><input type="text" id="other-record-type" hidden="true"></p>
-
-			
-				
-
+				<label class="row-item">Event Type</label>			
+				<select onchange="
+					if (this.value == 'other') {
+						document.getElementById('other-record-type').hidden = false;
+					} else {
+						document.getElementById('other-record-type').hidden = true;
+					} 
+				">
+					<option>baptism</option>
+					<option>marriage</option>
+					<option>escape</option>		
+					<option>other</option>	
+				</select><input type="text" id="other-record-type" hidden="true">
+			</p>
 			<p>
-					<label>Location<label><br>
-						<input type="text" placeholder="Havana" class="row-item">
-						<span class="row-item">in</span>
-						<span class="row-item">
-							<select>
-								<option>Spanish</option>
-								<option>Portuguese</option>
-								<option>French</option>
-								<option>British</option>
-								<option>American</option>
-							</select>
-							<select>
-								<option>Cuba</option>				
-								<option>Florida</option>
-								<option>La Plata</option>				
-								<option>Trinidad</option>
-								<option>Yucatan</option>
-							</select>
-						</span>
-				</p>
-				<p>
-			<div style="display: flex; align-items: center;">
+				<label>Location<label><br>
+				<input type="text" placeholder="Havana" class="row-item">
+				<span class="row-item">in</span>
+				<span class="row-item">
+					<select>
+						<option>Spanish</option>
+						<option>Portuguese</option>
+						<option>French</option>
+						<option>British</option>
+						<option>American</option>
+					</select>
+					<select>
+						<option>Cuba</option>				
+						<option>Florida</option>
+						<option>La Plata</option>				
+						<option>Trinidad</option>
+						<option>Yucatan</option>
+					</select>
+				</span>
+			</p>
+			<p>
+				<div style="display: flex; align-items: center;">
 					<div class="row-item">
 						<label>Month</label><br>
 						<select>
@@ -389,10 +383,12 @@
 							<option>9</option>
 						</select>	
 					</div>				
-				</div></p>
-
-			<p><label>Comments on this event</label>
-			<textarea style="width: 100%; height: 100px;"></textarea></p>
+				</div>
+			</p>
+			<p>
+				<label>Comments on this event</label>
+				<textarea style="width: 100%; height: 100px;"></textarea>
+			</p>
 			<br>
 			<h2>Persons</h2>
 			<table>
@@ -412,14 +408,10 @@
 						<td>Servant</td>
 						<td><a href="#preview">Review</a></td>			
 					</tr>			
-				</table>
-				<div style="display: flex; flex-direction: row-reverse;">
-				<a href="#person"><button>Add Person</button></a></div>
-
-
-
-			
-	
+			</table>
+			<div style="display: flex; flex-direction: row-reverse;">
+				<a href="#person"><button>Add Person</button></a>
+			</div>
 		</div>
 		<div class="header-footer">
 			<div class="buttons">
@@ -429,17 +421,13 @@
 			</div>
 		</div>
 	</div>
-	
 	<div class="form-page" id="person">
 		<div class="header-footer">
 			<h1>Add Person</h1>
 		</div>
-		
 		<div class="form-body">
 			<p>
-				<h3>What does the document call this person?</h3>
-				<!--<p class="info-box">Record the name exactly as it appears in the document.</p>-->
-				
+				<h3>What does the document call this person?</h3>			
 				<div style="display: flex;">
 					<div>
 						<label class="row-item">First</label><br>
@@ -463,7 +451,6 @@
 			</p>
 			<br>
 			<h3>What role does this person play in the context of the document?</h3>
-			
 			<select onchange="
 					if (this.value == 'other') {
 						document.getElementById('other-role').hidden = false;
@@ -474,15 +461,15 @@
 				<option>Slave</option>
 				<option>Runaway</option>
 				<option value="other">Other</option>
-			</select><input type="text" id="other-role" hidden="true">
-			
-			<br><br>	
+			</select>
+			<input type="text" id="other-role" hidden="true"><br>
+			<br>	
 			
 			<h3>Gender</h3>
 			<input type="radio" name="gender">Female<br>
 			<input type="radio" name="gender">Male<br>
-			<input type="radio" name="gender">Other/Unknown
-			<br><br>
+			<input type="radio" name="gender">Other/Unknown<br>
+			<br>
 
 			<expansion-header>Identity</expansion-header>
 			<collapsing-text>
@@ -510,13 +497,15 @@
 			</collapsing-text>
 			<br>
 			
-			<div class="annotation">The fields which start out expanded will be determined based on the type of record.</div>
-				
-			
+			<div class="annotation">
+			The fields which start out expanded will be determined based on the type of record.
+			</div>
+							
 			<br>
-			
-			<p><h3>Comments on this person</h3>
-			<textarea style="width: 100%; height: 100px;"></textarea></p>
+			<p>
+				<h3>Comments on this person</h3>
+				<textarea style="width: 100%; height: 100px;"></textarea>
+			</p>
 		</div>		
 		<div class="header-footer">
 			<div class="buttons">
@@ -562,11 +551,15 @@
 			</table>
 			<div class="annotation">Matching results will appear below, like a search 
 			engine, and when clicked will be added to the list above.</div>
-			<p><input style="width: 100%;" type="text" placeholder="Search the databse for other instances of this person..."></p>
+			<p>
+				<input style="width: 100%;" type="text" 
+				 placeholder="Search the databse for other instances of this person...">
+			</p>
 			<br>
 			<h2>Relations</h2>
 			<p>No relations added.</p>
-			<div class="annotation">Relations appear where "no relations added" is written when "add" is pressed.</div>
+			<div class="annotation">Relations appear where "no relations added" is 
+			written when "add" is pressed.</div>
 			John Smith is the 
 			<select>
 				<option>...</option>
@@ -590,8 +583,6 @@
 			</div>
 		</div>
 	</div>
-		
-		
 	<div class="form-page" id="preview">
 		<div class="header-footer"><h1>Preview</h1></div>
 		<div class="form-body">
@@ -606,10 +597,12 @@
 				<tr><td><a href="">Vocation</a></td><td>Carpenter</td></tr>
 				<tr><td><a href="">Father</a></td><td>James Doe</td></tr>
 				<tr><td><a href="">Owner</a></td><td>Severus Flint</td></tr>
-				<tr><td style="padding-right: 10px;"><a href="">Comments</a></td><td>Doe was literate and spoke English and Spanish. He was likely sold multiple times.</td></tr>
+				<tr>
+					<td style="padding-right: 10px;"><a href="">Comments</a></td>
+					<td>Doe was literate and spoke English and Spanish. He was likely sold multiple times.</td>
+				</tr>
 			</table>
 			<br>
-			
 		</div>
 		<div class="header-footer">
 			<div class="buttons">
@@ -617,8 +610,7 @@
 				<button>Submit</button>
 			</div>
 		</div>	
-	</div>		
-		
+	</div>
 	<script>makeCollapsing();</script>
 </body>
 </html>
