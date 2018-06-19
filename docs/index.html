@@ -5,19 +5,24 @@
 <title>Disa Sketches</title>
 <style>
 body {
-	max-width: 800px;
+	max-width: 700px;
+	margin: auto;
+	text-align: justify;
+	hyphens: auto;
 }
 </style>
 </head>
-<body>
+<body lang="en">
 <h1>Disa Sketches</h1>
 <h2>Entry Form</h2>
-<p>The forms were simple enough that writing html was easier than drawing them.</p>
-<ul>
-	<li><a href="form-prototype-1.html">Option 1 (Revised)</a></li>
-	<li><a href="form-prototype-2.html"><s>Option 2</s></a></li>
-</ul>
+<!--<p>The forms were simple enough that writing html was easier than drawing them.</p>-->
 
+<a href="form-prototype-1.html">Option 1 (Revised)</a><br>
+<a href="form-prototype-2.html"><s>Option 2</s></a><br>
+<a href="form-prototype-3.html">Option 3</a><br>
+
+
+<!--
 <h3>Changes in Revision</h3>
 <ul>
 <li>Added "save" and "back" buttons.</li>
@@ -29,8 +34,34 @@ body {
 <li>Reordered Personal Details</li>
 <li>Added "information" symbol and expansion arrow to expandable items.</li>
 <li>Added preview page before submit</li>
-</ul>
+</ul> -->
 
+<p>
+I was told that we don't want to have owners as persons in the database. 
+I was wondering whether it might be preferable to include them in the  
+database but hide them from the public-facing interface. 
+</p>
+<p>
+It seems plausible that someone might want to look at all the slaves 
+owned by the same person. If we just enter owners as a name attached to 
+each slave, then we're likely to have problems if we have different owners 
+with the same name. Also, searching for matching strings is probably going 
+to be slower than searching for matching IDs. 
+</p>
+<p>
+Additionally, we could encounter instances where an owner was also a 
+family member, or maybe even cases where a slave was freed and then became 
+an owner.
+</p>
+<p>
+In order to handle these problems, I suspect that we're either going to 
+need to include owners as persons, or we're going to need a separate type 
+of entry for owners which would end up being used a lot like a person 
+entry anyway, as it would have at least some of the same fields "eg: name" 
+and it would be capable of having relations with persons.
+</p>
+
+<!--
 <h3>Issues in Revising</h3>
 
 Some of the requested changes that I'm not sure how to handle.
@@ -58,14 +89,14 @@ Some of the requested changes that I'm not sure how to handle.
 	Again, I thought we weren't considering having multiple documents for a single individual. If this is meant to add a document independent of an individual, I would expect that it would be a completely separate form.
 </li>
 </ul>
+-->
 
 <!--<h3>Concept for adding related person</h3>
 <img src="relations.png" width="925" height="333" alt="">-->
 
 <h2>Search / Filter Page</h2>
-<h3>Option 1</h3>
-<img src="search-sketch-1.png" alt="">
-<h3>Option 2</h3>
-<img src="search-sketch-2.png" alt="">
+
+<a href="search-sketch-1.png">Option 1</a><br>
+<a href="search-sketch-2.png">Option 2</a>
 </body>
 </html>
