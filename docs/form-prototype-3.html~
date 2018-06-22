@@ -114,7 +114,17 @@
 				<input type="radio" name="manual-zotero" value="zotero"
 				onclick="document.getElementById('pubinfo').hidden = true;">
 				<label for="zotero" class="row-item">Zotero Id</label>
-				<input type="text" placeholder="12345"><br>
+				<input type="text" placeholder="12345" onchange="
+					if (this.value == '') {
+						document.getElementById('zotero-preview').hidden = true;	
+					} else {
+						document.getElementById('zotero-preview').hidden = false;
+					}
+				"><br>
+				<div id="zotero-preview" hidden="true" style="margin-left: 30px;">
+					<p>New England Archives - Boston Historical Society, Item #1234, pg. 2<br>
+					Newspaper - Boston, British Massachusetts - June 06, 1698</p>
+				</div>
 				<input type="radio" name="manual-zotero" value="manual"
 				 onclick="document.getElementById('pubinfo').hidden = false;">
 				<label for="manual">Manual Entry</label>
@@ -217,11 +227,12 @@
 					<label>Citation</label><br>
 					<textarea></textarea>
 				</p>	
-				<p>
+				
+			</div>
+			<p>
 					<label>Acknowledgements</label><br>
 					<textarea></textarea>
 				</p>
-			</div>
 			<h2>Records</h2>			
 			<p>
 				<table>
@@ -279,7 +290,7 @@
 		<div class="header-footer">
 			<div class="buttons">
 				<button>Save</button>
-				<a><button>Submit</button></a>
+				<a href="#full-preview"><button>Preview</button></a>
 			</div>
 		</div>
 	</div>
@@ -297,7 +308,9 @@
 					} else {
 						document.getElementById('other-record-type').hidden = true;
 						if (this.value == 'sale') {
-							document.getElementById('');
+							document.getElementById('saleInfo').hidden = false;
+						} else {
+							document.getElementById('saleInfo').hidden = true;
 						}
 					} 
 				">
@@ -500,7 +513,17 @@
 				<p><label>Race</label><br>
 					<select>
 						<option>Indian</option>
-						<option>Mestizo</option>
+						<option>Mestee</option>
+						<option>Mulatto</option>
+						<option>Surinam Indian</option>
+						<option>Carolina Indian</option>
+						<option>Martha's Vineyard Indian</option>
+						<option>Spanish Indian</option>
+						<option>West India Mulatto</option>
+						<option>India</option>						
+						<option>Indio</option>
+						<option>Indian Mulatto</option>
+						<option>Criollo</option>
 						<option>Other</option>
 					</select>
 					<input type="text">
@@ -508,6 +531,9 @@
 				
 				<p><label>Tribe</label><br>
 				<select>
+					<option>Mohegan</option>
+					<option>Wampanoag</option>
+					<option>Bactora</option>
 					<option>Creek</option>
 					<option>Susquehannock</option>
 					<option>Other</option>				
@@ -886,10 +912,8 @@
 				<p>
 					<label>Status</label><br>
 					<select>
-						<option>Freedman</option>
-						<option>Slave</option>
-						<option>Manservant</option>
-						<option>Maidservant</option>
+						<option>Enslaved</option>
+						<option>Freed</option>
 						<option>Other</option>
 					</select>
 					<input type="text">				
@@ -898,6 +922,18 @@
 				<p>
 					<label>Vocation</label><br>
 					<select>
+						<option>Pastor</option>
+						<option>Farmer</option>
+						<option>Lawyer</option>
+						<option>Merchant</option>
+						<option>Baker</option>
+						<option>Maltser</option>
+						<option>Ship Captain</option>
+						<option>Shopkeeper</option>
+						<option>Leatherer</option>
+						<option>Sadler</option>
+						<option>Mariner</option>
+						<option>Cordwainer</option>
 						<option>Butcher</option>
 						<option>Baker</option>
 						<option>Candlestick-maker</option>
@@ -909,18 +945,20 @@
 					<label>Title</label><br>
 					<select>
 						<option>Mr.</option>
-						<option>Mrs.</option>
-						<option>Miss</option>
-						<option>Dr.</option>
-						<option>Sgt.</option>	
-						<option>Other</option>				
+						<option>Capt.</option>
+						<option>Esq</option>
+						<option>Don</option>
+						<option>Mistress</option>
+						<option>Fray</option>			
 					</select>
 					<input type="text">
 				</p>		
 				<p>
 					<label>Kind of Enslavement</label><br>
 					<select>
-						<option>Chattel</option>
+						<option>Slave</option>
+						<option>Servant</option>
+						<option>Indentured Servant</option>
 						<option>Other</option>			
 					</select>
 					<input type="text">
@@ -1034,6 +1072,102 @@
 				</tr>
 			</table>
 			<br>
+		</div>
+		<div class="header-footer">
+			<div class="buttons">
+				<a href="#details" class="back"><button>Back</button></a>				
+			</div>
+		</div>	
+	</div>
+	<div class="form-page" id="full-preview">
+		<div class="header-footer"><h1>Preview</h1></div>
+		<div class="form-body">
+			<h2>Document</h2>
+			<p>New England Archives - Boston Historical Society, Item #1234, pg. 2<br>
+			Newspaper - Boston, British Massachusetts - June 06, 1698</p>
+			<p>Thank you to Steven Smith and Margaret Von Habsburg</p>
+			<h3>Event 1</h3>
+			<p>Baptism - Providence, British Rhode Island - May 7, 1698</p>
+			<p>Performed by Rev. John Smith of Trinity Church.</p>
+			<expansion-header>John Doe</expansion-header>
+			<collapsing-text>
+				<div class="annotation">Links will point to the place in the form where the item was entered.</div>			
+				<table>
+					<tr><td><a href="">Role</a></td><td>Slave</td></tr>
+					<tr><td><a href="">Gender</a></td><td>Male</td></tr>
+					<tr><td><a href="">Race</a></td><td>Indian</td></tr>
+					<tr><td><a href="">Tribe</a></td><td>Susquehannock</td></tr>
+					<tr><td><a href="">Status</a></td><td>Slave</td></tr>
+					<tr><td><a href="">Vocation</a></td><td>Carpenter</td></tr>
+					<tr><td><a href="">Father</a></td><td>James Doe</td></tr>
+					<tr><td><a href="">Owner</a></td><td>Severus Flint</td></tr>
+					<tr>
+						<td style="padding-right: 10px;"><a href="">Comments</a></td>
+						<td>Doe was literate and spoke English and Spanish. He was likely sold multiple times.</td>
+					</tr>
+					<tr>
+						<td><a href="">Other Appearances</a></td>
+						<td><p>Boston Journal, Page 14, Aedith Bobsdaughter et al.</p></td>
+					</tr>
+				</table>
+			</collapsing-text>
+			<br>
+			<expansion-header>Jane Doe</expansion-header>
+			<collapsing-text>
+			<div class="annotation">Links will point to the place in the form where the item was entered.</div>			
+			<table>
+				<tr><td><a href="">Role</a></td><td>Slave</td></tr>
+				<tr><td><a href="">Gender</a></td><td>Female</td></tr>
+				<tr><td><a href="">Race</a></td><td>Indian</td></tr>
+				<tr><td><a href="">Tribe</a></td><td>Susquehannock</td></tr>
+				<tr><td><a href="">Status</a></td><td>Slave</td></tr>
+				<tr><td><a href="">Vocation</a></td><td>Carpenter</td></tr>
+				<tr><td><a href="">Father</a></td><td>James Doe</td></tr>
+				<tr><td><a href="">Owner</a></td><td>Severus Flint</td></tr>
+			</table>			
+			</collapsing-text>
+			<br>
+			<h3>Event 2</h3>
+			<p>Baptism - Providence, British Rhode Island - May 7, 1698</p>
+			<p>Performed by Rev. John Smith of Trinity Church.</p>
+			<expansion-header>John Doe</expansion-header>
+			<collapsing-text>
+				<div class="annotation">Links will point to the place in the form where the item was entered.</div>			
+				<table>
+					<tr><td><a href="">Role</a></td><td>Slave</td></tr>
+					<tr><td><a href="">Gender</a></td><td>Male</td></tr>
+					<tr><td><a href="">Race</a></td><td>Indian</td></tr>
+					<tr><td><a href="">Tribe</a></td><td>Susquehannock</td></tr>
+					<tr><td><a href="">Status</a></td><td>Slave</td></tr>
+					<tr><td><a href="">Vocation</a></td><td>Carpenter</td></tr>
+					<tr><td><a href="">Father</a></td><td>James Doe</td></tr>
+					<tr><td><a href="">Owner</a></td><td>Severus Flint</td></tr>
+					<tr>
+						<td style="padding-right: 10px;"><a href="">Comments</a></td>
+						<td>Doe was literate and spoke English and Spanish. He was likely sold multiple times.</td>
+					</tr>
+					<tr>
+						<td><a href="">Other Appearances</a></td>
+						<td><p>Boston Journal, Page 14, Aedith Bobsdaughter et al.</p></td>
+					</tr>
+				</table>
+			</collapsing-text>
+			<br>
+			<expansion-header>Jane Doe</expansion-header>
+			<collapsing-text>
+			<div class="annotation">Links will point to the place in the form where the item was entered.</div>			
+			<table>
+				<tr><td><a href="">Role</a></td><td>Slave</td></tr>
+				<tr><td><a href="">Gender</a></td><td>Female</td></tr>
+				<tr><td><a href="">Race</a></td><td>Indian</td></tr>
+				<tr><td><a href="">Tribe</a></td><td>Susquehannock</td></tr>
+				<tr><td><a href="">Status</a></td><td>Slave</td></tr>
+				<tr><td><a href="">Vocation</a></td><td>Carpenter</td></tr>
+				<tr><td><a href="">Father</a></td><td>James Doe</td></tr>
+				<tr><td><a href="">Owner</a></td><td>Severus Flint</td></tr>
+			</table>			
+			<br>
+			</collapsing-text>
 		</div>
 		<div class="header-footer">
 			<div class="buttons">
