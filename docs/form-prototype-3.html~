@@ -183,7 +183,7 @@
 						</select>				
 					</div>
 					<div class="row-item">				
-						<label>Day<label><br>
+						<label>Day</label><br>
 						<input type="number" value="4">
 					</div>
 					<div class="row-item">	
@@ -233,11 +233,11 @@
 					<label>Acknowledgements</label><br>
 					<textarea></textarea>
 				</p>
-			<h2>Records</h2>			
+			<h2>Items</h2>			
 			<p>
 				<table>
 					<tr>
-						<td><h3>Record 1</h3></td>
+						<td><h3>Item 1</h3></td>
 						<td>Runaway Advertisement</td>
 						<td>Boston</td>
 						<td><a href="#record">Review</a></td>
@@ -265,7 +265,7 @@
 			<p>
 				<table>
 					<tr>
-						<td><h3>Record 2</h3></td>
+						<td><h3>Item 2</h3></td>
 						<td>Sale Advertisement</td>
 						<td>Providence</td>
 						<td><a href="#record">Review</a></td>
@@ -284,7 +284,8 @@
 				</table>
 			</p>
 			<div style="display: flex; flex-direction: row-reverse;">
-				<a href="#record"><button>Add Record</button></a></div>
+				<a href="#record"><button>Add Item</button></a>
+			</div>
 			
 		</div>
 		<div class="header-footer">
@@ -296,154 +297,164 @@
 	</div>
 	<div class="form-page" id="record">
 		<div class="header-footer">
-			<h1>Add a Record</h1>
+			<h1>Add an Item from This Document</h1>
 		</div>
 		<div class="form-body">
-			<h2>Event</h2>
 			<p>
-				<label class="row-item">Event Type</label>			
-				<select onchange="
-					if (this.value == 'other') {
-						document.getElementById('other-record-type').hidden = false;
-					} else {
-						document.getElementById('other-record-type').hidden = true;
-						if (this.value == 'sale') {
-							document.getElementById('saleInfo').hidden = false;
+					<label>Location</label><br>
+					<input type="text" placeholder="Havana" class="row-item">
+					<span class="row-item">in</span>
+					<span class="row-item">
+						<select>
+							<option>Spanish</option>
+							<option>Portuguese</option>
+							<option>French</option>
+							<option>British</option>
+							<option>American</option>
+						</select>
+						<select>
+							<option>Cuba</option>				
+							<option>Florida</option>
+							<option>La Plata</option>				
+							<option>Trinidad</option>
+							<option>Yucatan</option>
+						</select>
+					</span>
+				</p>
+				<p>
+					<div style="display: flex; align-items: center;">
+						<div class="row-item">
+							<label>Month</label><br>
+							<select>
+								<option>...</option>
+								<option>January</option>
+								<option>February</option>
+								<option>March</option>
+								<option>April</option>
+								<option>May</option>
+								<option>June</option>
+								<option selected="selected">July</option>
+								<option>August</option>
+								<option>September</option>
+								<option>October</option>
+								<option>November</option>
+								<option>December</option>
+							</select>				
+						</div>
+						<div class="row-item">				
+							<label>Day</label><br>
+							<input type="number" value="4">
+						</div>
+						<div class="row-item">	
+							<label>Year</label><br>
+							<select>
+								<option>...</option>
+								<option>15</option>
+								<option>16</option>
+								<option selected="selected">17</option>
+								<option>18</option>			
+							</select>
+							<select>
+								<option>...</option>
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>
+								<option>6</option>
+								<option selected="selected">7</option>
+								<option>8</option>
+								<option>9</option>
+							</select>
+							<select>
+								<option>...</option>
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>
+								<option selected="selected">6</option>
+								<option>7</option>
+								<option>8</option>
+								<option>9</option>
+							</select>	
+						</div>				
+					</div>
+				</p>
+			
+			<h2 style="margin-bottom: 10px;">Events</h2>
+			<div style="margin-left: 30px;">
+				
+				<h3>Event 1</h3>
+				<p>
+					<label class="row-item">Event Type</label>			
+					<select onchange="
+						if (this.value == 'other') {
+							document.getElementById('other-record-type').hidden = false;
 						} else {
-							document.getElementById('saleInfo').hidden = true;
-						}
-					} 
-				">
-					<option>baptism</option>
-					<option>marriage</option>
-					<option>escape</option>
-					<option>sale</option>	
-					<option>other</option>	
-				</select><input type="text" id="other-record-type" hidden="true">
-			</p>
-			<div id="saleInfo" hidden="true">			
-				<div style="display: flex;">
-					<div>
-						<label class="row-item">Buyer</label><br>
+							document.getElementById('other-record-type').hidden = true;
+							if (this.value == 'sale') {
+								document.getElementById('saleInfo').hidden = false;
+							} else {
+								document.getElementById('saleInfo').hidden = true;
+							}
+						} 
+					">
+						<option>baptism</option>
+						<option>marriage</option>
+						<option>escape</option>
+						<option>sale</option>	
+						<option>other</option>	
+					</select><input type="text" id="other-record-type" hidden="true">
+				</p>
+				<div id="saleInfo" hidden="true">			
+					<div style="display: flex;">
+						<div>
+							<label class="row-item">Buyer</label><br>
+							<input type="text">
+						</div>
+						<div>
+							<label>Seller</label><br>
+							<input type="text">
+						</div>			
+					</div>
+					<br><div>
+						<label>Ship Captain</label><br>
 						<input type="text">
 					</div>
-					<div>
-						<label>Seller</label><br>
-						<input type="text">
-					</div>			
 				</div>
-				<br><div>
-					<label>Ship Captain</label><br>
-					<input type="text">
+				
+				
+				<h4>Persons</h4>
+				<table>
+						<tr>
+							<td><b>John Smith</b></td>
+							<td>♂</td>
+							<td>Indian</td>				
+							<td>Runaway</td>
+							<td>Carpenter</td>
+							<td><a href="#preview">Review</a></td>			
+						</tr>
+						<tr>
+							<td><b>Jane Smith</b></td>
+							<td>♀</td>
+							<td>Indian</td>				
+							<td>Runaway</td>
+							<td>Servant</td>
+							<td><a href="#preview">Review</a></td>			
+						</tr>			
+				</table>
+				<div style="display: flex; flex-direction: row-reverse;">
+					<a href="#person"><button>Add Person</button></a>
 				</div>
+				<p>
+					<label>Comments on this event</label>
+					<textarea style="width: 100%; height: 100px;"></textarea>
+				</p>
 			</div>
-			<p>
-				<label>Location<label><br>
-				<input type="text" placeholder="Havana" class="row-item">
-				<span class="row-item">in</span>
-				<span class="row-item">
-					<select>
-						<option>Spanish</option>
-						<option>Portuguese</option>
-						<option>French</option>
-						<option>British</option>
-						<option>American</option>
-					</select>
-					<select>
-						<option>Cuba</option>				
-						<option>Florida</option>
-						<option>La Plata</option>				
-						<option>Trinidad</option>
-						<option>Yucatan</option>
-					</select>
-				</span>
-			</p>
-			<p>
-				<div style="display: flex; align-items: center;">
-					<div class="row-item">
-						<label>Month</label><br>
-						<select>
-							<option>...</option>
-							<option>January</option>
-							<option>February</option>
-							<option>March</option>
-							<option>April</option>
-							<option>May</option>
-							<option>June</option>
-							<option selected="selected">July</option>
-							<option>August</option>
-							<option>September</option>
-							<option>October</option>
-							<option>November</option>
-							<option>December</option>
-						</select>				
-					</div>
-					<div class="row-item">				
-						<label>Day<label><br>
-						<input type="number" value="4">
-					</div>
-					<div class="row-item">	
-						<label>Year</label><br>
-						<select>
-							<option>...</option>
-							<option>15</option>
-							<option>16</option>
-							<option selected="selected">17</option>
-							<option>18</option>			
-						</select>
-						<select>
-							<option>...</option>
-							<option>1</option>
-							<option>2</option>
-							<option>3</option>
-							<option>4</option>
-							<option>5</option>
-							<option>6</option>
-							<option selected="selected">7</option>
-							<option>8</option>
-							<option>9</option>
-						</select>
-						<select>
-							<option>...</option>
-							<option>1</option>
-							<option>2</option>
-							<option>3</option>
-							<option>4</option>
-							<option>5</option>
-							<option selected="selected">6</option>
-							<option>7</option>
-							<option>8</option>
-							<option>9</option>
-						</select>	
-					</div>				
-				</div>
-			</p>
-			<p>
-				<label>Comments on this event</label>
-				<textarea style="width: 100%; height: 100px;"></textarea>
-			</p>
 			<br>
-			<h2>Persons</h2>
-			<table>
-					<tr>
-						<td><b>John Smith</b></td>
-						<td>♂</td>
-						<td>Indian</td>				
-						<td>Runaway</td>
-						<td>Carpenter</td>
-						<td><a href="#preview">Review</a></td>			
-					</tr>
-					<tr>
-						<td><b>Jane Smith</b></td>
-						<td>♀</td>
-						<td>Indian</td>				
-						<td>Runaway</td>
-						<td>Servant</td>
-						<td><a href="#preview">Review</a></td>			
-					</tr>			
-			</table>
 			<div style="display: flex; flex-direction: row-reverse;">
-				<a href="#person"><button>Add Person</button></a>
+				<a><button>Add Event</button></a>
 			</div>
 		</div>
 		<div class="header-footer">
@@ -461,20 +472,33 @@
 		<div class="form-body">
 			<p>
 				<h3>What does the document call this person?</h3>			
-				<div style="display: flex;">
+				<div style="display: flex; width: calc(100%);">
 					<div>
-						<label class="row-item">First</label><br>
-						<input type="text" placeholder="John">
+						<label>Title</label><br>
+						<select>
+							<option>Mr.</option>
+							<option>Capt.</option>
+							<option>Esq</option>
+							<option>Don</option>
+							<option>Mistress</option>
+							<option>Fray</option>			
+						</select>
 					</div>
-					<div>
+					<div style="flex-shrink: 2; width: 50px; flex-grow: 1;">
+						<label class="row-item">First</label><br>
+						<input type="text" placeholder="John" style="max-width: 100%">
+					</div>
+					<div style="flex-shrink: 2; width: 50px; flex-grow: 1;"> 
 						<label class="row-item">Last</label><br>
-						<input type="text" placeholder="Doe">
+						<input type="text" placeholder="Doe" style="max-width: 100%;">
 					</div>
 					<div>
 						<label>Name Type</label><br>
 						<select>
 							<option>Baptismal</option>
 							<option>Indigenous</option>
+							<option>English</option>
+							<option>European</option>
 							<option>Nickname</option>
 							<option>Alias</option>
 						</select>
@@ -483,19 +507,20 @@
 				<button>Add Name</button>
 			</p>
 			<br>
-			<h3>What role does this person play in the context of the document?</h3>
+			<h3>Is this an Enslaved Person?</h3>
 			<select onchange="
-					if (this.value == 'other') {
-						document.getElementById('other-role').hidden = false;
-					} else {
-						document.getElementById('other-role').hidden = true;
-					} 
+					greyedIfNotEnslaved = document.getElementsByClassName('greyed-if-not-enslaved');
+					for (let i = 0; i < greyedIfNotEnslaved.length; i++) {
+						if (this.value == 'no') {
+							greyedIfNotEnslaved[i].classList.append('greyed');
+						} else {
+							greyedIfNotEnslaved[i].classList.remove('greyed');
+						}
+					}
 				">
-				<option>Slave</option>
-				<option>Runaway</option>
-				<option value="other">Other</option>
+				<option>Yes</option>
+				<option value="no">No</option>
 			</select>
-			<input type="text" id="other-role" hidden="true"><br>
 			<br>	
 			
 			<h3>Gender</h3>
@@ -567,7 +592,7 @@
 						</select>				
 					</div>
 					<div class="row-item">				
-						<label>Day<label><br>
+						<label>Day</label><br>
 						<input type="number" value="4">
 					</div>
 					<div class="row-item">	
@@ -606,64 +631,66 @@
 					</div>				
 				</div>
 				<br>
-				<h3>Date of Emancipation</h3>
-				<div style="display: flex; align-items: center;">
-					<div class="row-item">
-						<label>Month</label><br>
-						<select>
-							<option>...</option>
-							<option>January</option>
-							<option>February</option>
-							<option>March</option>
-							<option>April</option>
-							<option>May</option>
-							<option>June</option>
-							<option selected="selected">July</option>
-							<option>August</option>
-							<option>September</option>
-							<option>October</option>
-							<option>November</option>
-							<option>December</option>
-						</select>				
+				<div class="greyed-if-not-enslaved">
+					<h3>Date of Emancipation</h3>
+					<div style="display: flex; align-items: center;">
+						<div class="row-item">
+							<label>Month</label><br>
+							<select>
+								<option>...</option>
+								<option>January</option>
+								<option>February</option>
+								<option>March</option>
+								<option>April</option>
+								<option>May</option>
+								<option>June</option>
+								<option selected="selected">July</option>
+								<option>August</option>
+								<option>September</option>
+								<option>October</option>
+								<option>November</option>
+								<option>December</option>
+							</select>				
+						</div>
+						<div class="row-item">				
+							<label>Day</label><br>
+							<input type="number" value="4">
+						</div>
+						<div class="row-item">	
+							<label>Year</label><br>
+							<select>
+								<option>...</option>
+								<option>15</option>
+								<option>16</option>
+								<option selected="selected">17</option>
+								<option>18</option>			
+							</select>
+							<select>
+								<option>...</option>
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>
+								<option>6</option>
+								<option selected="selected">7</option>
+								<option>8</option>
+								<option>9</option>
+							</select>
+							<select>
+								<option>...</option>
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>
+								<option selected="selected">6</option>
+								<option>7</option>
+								<option>8</option>
+								<option>9</option>
+							</select>	
+						</div>
 					</div>
-					<div class="row-item">				
-						<label>Day<label><br>
-						<input type="number" value="4">
-					</div>
-					<div class="row-item">	
-						<label>Year</label><br>
-						<select>
-							<option>...</option>
-							<option>15</option>
-							<option>16</option>
-							<option selected="selected">17</option>
-							<option>18</option>			
-						</select>
-						<select>
-							<option>...</option>
-							<option>1</option>
-							<option>2</option>
-							<option>3</option>
-							<option>4</option>
-							<option>5</option>
-							<option>6</option>
-							<option selected="selected">7</option>
-							<option>8</option>
-							<option>9</option>
-						</select>
-						<select>
-							<option>...</option>
-							<option>1</option>
-							<option>2</option>
-							<option>3</option>
-							<option>4</option>
-							<option>5</option>
-							<option selected="selected">6</option>
-							<option>7</option>
-							<option>8</option>
-							<option>9</option>
-						</select>	
-					</div>				
 				</div>
 				<br>
 				<h3>Date of Marriage</h3>
@@ -687,7 +714,7 @@
 						</select>				
 					</div>
 					<div class="row-item">				
-						<label>Day<label><br>
+						<label>Day</label><br>
 						<input type="number" value="4">
 					</div>
 					<div class="row-item">	
@@ -746,7 +773,7 @@
 						</select>				
 					</div>
 					<div class="row-item">				
-						<label>Day<label><br>
+						<label>Day</label><br>
 						<input type="number" value="4">
 					</div>
 					<div class="row-item">	
@@ -806,7 +833,7 @@
 						</select>				
 					</div>
 					<div class="row-item">				
-						<label>Day<label><br>
+						<label>Day</label><br>
 						<input type="number" value="4">
 					</div>
 					<div class="row-item">	
@@ -866,7 +893,7 @@
 						</select>				
 					</div>
 					<div class="row-item">				
-						<label>Day<label><br>
+						<label>Day</label><br>
 						<input type="number" value="4">
 					</div>
 					<div class="row-item">	
@@ -918,7 +945,6 @@
 					</select>
 					<input type="text">				
 				</p>
-				
 				<p>
 					<label>Vocation</label><br>
 					<select>
@@ -940,25 +966,15 @@
 						<option>Other</option>					
 					</select>
 					<input type="text">
-				</p>
-				<p>
-					<label>Title</label><br>
-					<select>
-						<option>Mr.</option>
-						<option>Capt.</option>
-						<option>Esq</option>
-						<option>Don</option>
-						<option>Mistress</option>
-						<option>Fray</option>			
-					</select>
-					<input type="text">
 				</p>		
 				<p>
 					<label>Kind of Enslavement</label><br>
 					<select>
 						<option>Slave</option>
 						<option>Servant</option>
-						<option>Indentured Servant</option>
+						<option>Involuntary Indenture</option>
+						<option>Voluntary Indenture</option>
+						<option>Unclear</option>
 						<option>Other</option>			
 					</select>
 					<input type="text">
