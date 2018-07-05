@@ -150,6 +150,7 @@
 				</p>
 				<p>
 					<label>Location</label><br>
+						<div class="annotation">Predictive text will be used here.</div>
 						<input type="text" placeholder="Havana" class="row-item">
 						<span class="row-item">in</span>
 						<span class="row-item">
@@ -308,6 +309,7 @@
 		<div class="form-body">
 			<p>
 					<label>Location</label><br>
+					<div class="annotation">Predictive text will be used here.</div>
 					<input type="text" placeholder="Havana" class="row-item">
 					<span class="row-item">in</span>
 					<span class="row-item">
@@ -573,9 +575,54 @@
 				<input type="text"></p>
 				
 				<p><label>Origin</label><br>
+				<div class="annotation">Predictive text will be used here.</div>
 				<input type="text" placeholder="Pennsylvania"></p>	
 			</collapsing-text>
-			<br>			
+			<br>
+			<expansion-header>Position</expansion-header>
+			<collapsing-text>
+				<p>
+					<label>Status</label><br>
+					<select>
+						<option>Enslaved</option>
+						<option>Freed</option>
+						<option>Other</option>
+					</select>
+					<input type="text">				
+				</p>
+				<p>
+					<label>Vocation</label><br>
+					<select>
+						<option>Pastor</option>
+						<option>Farmer</option>
+						<option>Lawyer</option>
+						<option>Merchant</option>
+						<option>Baker</option>
+						<option>Maltser</option>
+						<option>Ship Captain</option>
+						<option>Shopkeeper</option>
+						<option>Leatherer</option>
+						<option>Sadler</option>
+						<option>Mariner</option>
+						<option>Cordwainer</option>
+						<option>Other</option>					
+					</select>
+					<input type="text">
+				</p>		
+				<p>
+					<label>Kind of Enslavement</label><br>
+					<select>
+						<option>Slave</option>
+						<option>Servant</option>
+						<option>Involuntary Indenture</option>
+						<option>Voluntary Indenture</option>
+						<option>Unclear</option>
+						<option>Other</option>			
+					</select>
+					<input type="text">
+				</p>
+			</collapsing-text>
+			<br>
 			<expansion-header>Dates</expansion-header>
 			<collapsing-text>
 				<h3>Date of Death</h3>
@@ -943,54 +990,7 @@
 				</div>		
 			</collapsing-text>
 			<br>
-			<expansion-header>Position</expansion-header>
-			<collapsing-text>
-				<p>
-					<label>Status</label><br>
-					<select>
-						<option>Enslaved</option>
-						<option>Freed</option>
-						<option>Other</option>
-					</select>
-					<input type="text">				
-				</p>
-				<p>
-					<label>Vocation</label><br>
-					<select>
-						<option>Pastor</option>
-						<option>Farmer</option>
-						<option>Lawyer</option>
-						<option>Merchant</option>
-						<option>Baker</option>
-						<option>Maltser</option>
-						<option>Ship Captain</option>
-						<option>Shopkeeper</option>
-						<option>Leatherer</option>
-						<option>Sadler</option>
-						<option>Mariner</option>
-						<option>Cordwainer</option>
-						<option>Butcher</option>
-						<option>Baker</option>
-						<option>Candlestick-maker</option>
-						<option>Other</option>					
-					</select>
-					<input type="text">
-				</p>		
-				<p>
-					<label>Kind of Enslavement</label><br>
-					<select>
-						<option>Slave</option>
-						<option>Servant</option>
-						<option>Involuntary Indenture</option>
-						<option>Voluntary Indenture</option>
-						<option>Unclear</option>
-						<option>Other</option>			
-					</select>
-					<input type="text">
-				</p>
-			</collapsing-text>
-			<br>
-			
+						
 			<div class="annotation">
 			The fields which start out expanded will be determined based on the type of record.
 			</div>
@@ -1111,8 +1111,10 @@
 			<p>New England Archives - Boston Historical Society, Item #1234, pg. 2<br>
 			Newspaper - Boston, British Massachusetts - June 06, 1698</p>
 			<p>Thank you to Steven Smith and Margaret Von Habsburg</p>
-			<h3>Event 1</h3>
-			<p>Baptism - Providence, British Rhode Island - May 7, 1698</p>
+			<h3>Item 1</h3>
+			<p>Providence, British Rhode Island - May 7, 1698</p>
+			<h4>Event 1</h4>
+			<p>Baptism</p>
 			<p>Performed by Rev. John Smith of Trinity Church.</p>
 			<expansion-header>John Doe</expansion-header>
 			<collapsing-text>
@@ -1152,9 +1154,8 @@
 			</table>			
 			</collapsing-text>
 			<br>
-			<h3>Event 2</h3>
-			<p>Baptism - Providence, British Rhode Island - May 7, 1698</p>
-			<p>Performed by Rev. John Smith of Trinity Church.</p>
+			<h4>Event 2</h4>
+			<p>Escape</p>
 			<expansion-header>John Doe</expansion-header>
 			<collapsing-text>
 				<div class="annotation">Links will point to the place in the form where the item was entered.</div>			
