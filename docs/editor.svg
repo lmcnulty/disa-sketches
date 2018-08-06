@@ -56,9 +56,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.27511704"
-     inkscape:cx="2091.5898"
-     inkscape:cy="496.24205"
+     inkscape:zoom="0.2137769"
+     inkscape:cx="2073.2142"
+     inkscape:cy="562.26473"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -107,7 +107,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -182,7 +182,7 @@
            y="-130.08293"
            x="155.65466"
            id="tspan1436"
-           sodipodi:role="line">7 Persons accross 2 Sections</tspan></text>
+           sodipodi:role="line">7 persons across 2 sections</tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:6.61458302px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -244,7 +244,7 @@
            id="tspan1458"
            x="155.65466"
            y="-106.27043"
-           style="font-size:4.23333311px;stroke-width:0.26458332px">40 Persons accross 32 Sections</tspan></text>
+           style="font-size:4.23333311px;stroke-width:0.26458332px">40 persons across 32 sections</tspan></text>
       <text
          id="text1464"
          y="-106.33554"
@@ -306,7 +306,7 @@
            y="-82.457947"
            x="155.65466"
            id="tspan1480"
-           sodipodi:role="line">5 Persons accross 5 Sections</tspan></text>
+           sodipodi:role="line">5 persons accross 5 sections</tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:6.61458302px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -441,7 +441,7 @@
            id="tspan1458-8"
            x="155.65466"
            y="126.56288"
-           style="font-size:4.23333311px;stroke-width:0.26458332px">4 Persons</tspan></text>
+           style="font-size:4.23333311px;stroke-width:0.26458332px">4 persons</tspan></text>
       <text
          id="text1464-3"
          y="126.49777"
@@ -492,7 +492,7 @@
            y="150.37537"
            x="155.65466"
            id="tspan1480-6"
-           sodipodi:role="line">3 Persons</tspan></text>
+           sodipodi:role="line">3 persons</tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:6.61458349px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
