@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="5121"
+   height="901.5"
+   viewBox="0 0 1354.9312 238.52189"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="editor.svg">
+  <defs
+     id="defs2">
+    <marker
+       inkscape:stockid="Arrow1Send"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Send"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1413"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Send"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Send-7"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1413-2"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#bdbdbd"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.27511704"
+     inkscape:cx="2091.5898"
+     inkscape:cy="496.24205"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1600"
+     inkscape:window-height="834"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-nodes="true"
+     inkscape:bbox-paths="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:snap-text-baseline="true"
+     inkscape:snap-page="true"
+     showguides="false"
+     inkscape:measure-start="0,0"
+     inkscape:measure-end="0,0"
+     inkscape:pagecheckerboard="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid815"
+       originx="0.13227131"
+       originy="-237.99272" />
+    <sodipodi:guide
+       position="-21.868596,-252.65996"
+       orientation="1,0"
+       id="guide1101"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-13.096896,-312.07605"
+       orientation="1,0"
+       id="guide1250"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0.13227131,179.51462)">
+    <g
+       id="g1394">
+      <rect
+         y="-179.25003"
+         x="2.0345053e-05"
+         height="238.125"
+         width="423.33331"
+         id="rect1498"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#212121;stroke-width:0.26458332;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <rect
+         y="-179.25003"
+         x="2.0345053e-05"
+         height="15.875001"
+         width="423.33331"
+         id="rect817"
+         style="opacity:1;fill:#707070;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.66250944;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         id="text821"
+         y="-169.36606"
+         x="5.7068501"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;line-height:6.61458302px;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#ffffff;fill-opacity:1;stroke-width:0.26458332px"
+           y="-169.36606"
+           x="5.7068501"
+           id="tspan819"
+           sodipodi:role="line">Database of Indigenous Slavery in the Americas - Editor</tspan></text>
+      <text
+         id="text862"
+         y="-145.23041"
+         x="4.6684694"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;line-height:6.61458302px;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.26458332px"
+           y="-145.23041"
+           x="4.6684694"
+           id="tspan860"
+           sodipodi:role="line">Documents</tspan></text>
+      <rect
+         y="-139.56253"
+         x="5.291687"
+         height="15.802793"
+         width="412.81009"
+         id="rect1426"
+         style="opacity:1;fill:#f9f9f9;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.26458332;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         id="text1430"
+         y="-130.08293"
+         x="10.493509"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:6.61458302px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-weight:bold;font-size:4.23333311px;stroke-width:0.26458332px"
+           y="-130.08293"
+           x="10.493509"
+           id="tspan1428"
+           sodipodi:role="line">The Accounts of Severus Flint </tspan></text>
+      <text
+         id="text1438"
+         y="-130.08293"
+         x="155.65466"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:6.61458302px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-size:4.23333311px;stroke-width:0.26458332px"
+           y="-130.08293"
+           x="155.65466"
+           id="tspan1436"
+           sodipodi:role="line">7 Persons accross 2 Sections</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:6.61458302px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="89.823036"
+         y="-130.14804"
+         id="text1442"><tspan
+           sodipodi:role="line"
+           id="tspan1440"
+           x="89.823036"
+           y="-130.14804"
+           style="font-size:4.23333311px;stroke-width:0.26458332px">Account</tspan></text>
+      <text
+         id="text1446"
+         y="-130.51392"
+         x="119.17938"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:6.61458302px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.26458332px"
+           y="-130.51392"
+           x="119.17938"
+           id="tspan1444"
+           sodipodi:role="line">June 9, 1752</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:6.61458302px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#1a61dc;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="400.92804"
+         y="-130.08293"
+         id="text1450"><tspan
+           sodipodi:role="line"
+           id="tspan1448"
+           x="400.92804"
+           y="-130.08293"
+           style="font-size:4.23333311px;fill:#1a61dc;fill-opacity:1;stroke-width:0.26458332px">edit</tspan></text>
+      <rect
+         style="opacity:1;fill:#f9f9f9;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.26458332;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect1452"
+         width="412.81009"
+         height="15.802793"
+         x="5.291687"
+         y="-115.75002" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:6.61458302px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="10.49351"
+         y="-106.27043"
+         id="text1456"><tspan
+           sodipodi:role="line"
+           id="tspan1454"
+           x="10.49351"
+           y="-106.27043"
+           style="font-weight:bold;font-size:4.23333311px;stroke-width:0.26458332px">The Boston Times</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:6.61458302px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="155.65466"
+         y="-106.27043"
+         id="text1460"><tspan
+           sodipodi:role="line"
+           id="tspan1458"
+           x="155.65466"
+           y="-106.27043"
+           style="font-size:4.23333311px;stroke-width:0.26458332px">40 Persons accross 32 Sections</tspan></text>
+      <text
+         id="text1464"
+         y="-106.33554"
+         x="89.823036"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:6.61458302px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-size:4.23333311px;stroke-width:0.26458332px"
+           y="-106.33554"
+           x="89.823036"
+           id="tspan1462"
+           sodipodi:role="line">Newspaper</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:6.61458302px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="119.17939"
+         y="-106.70142"
+         id="text1468"><tspan
+           sodipodi:role="line"
+           id="tspan1466"
+           x="119.17939"
+           y="-106.70142"
+           style="stroke-width:0.26458332px">May 4, 1712</tspan></text>
+      <text
+         id="text1472"
+         y="-106.27043"
+         x="400.92804"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:6.61458302px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#1a61dc;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-size:4.23333311px;fill:#1a61dc;fill-opacity:1;stroke-width:0.26458332px"
+           y="-106.27043"
+           x="400.92804"
+           id="tspan1470"
+           sodipodi:role="line">edit</tspan></text>
+      <rect
+         y="-91.937531"
+         x="5.291687"
+         height="15.802793"
+         width="412.81009"
+         id="rect1474"
+         style="opacity:1;fill:#f9f9f9;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.26458332;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         id="text1478"
+         y="-82.457947"
+         x="10.493511"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:6.61458302px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-weight:bold;font-size:4.23333311px;stroke-width:0.26458332px"
+           y="-82.457947"
+           x="10.493511"
+           id="tspan1476"
+           sodipodi:role="line">The Connecticut Inquirer</tspan></text>
+      <text
+         id="text1482"
+         y="-82.457947"
+         x="155.65466"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:6.61458302px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-size:4.23333311px;stroke-width:0.26458332px"
+           y="-82.457947"
+           x="155.65466"
+           id="tspan1480"
+           sodipodi:role="line">5 Persons accross 5 Sections</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:6.61458302px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="89.823044"
+         y="-82.523056"
+         id="text1486"><tspan
+           sodipodi:role="line"
+           id="tspan1484"
+           x="89.823044"
+           y="-82.523056"
+           style="font-size:4.23333311px;stroke-width:0.26458332px">Newspaper</tspan></text>
+      <text
+         id="text1490"
+         y="-82.888931"
+         x="119.17939"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:6.61458302px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.26458332px"
+           y="-82.888931"
+           x="119.17939"
+           id="tspan1488"
+           sodipodi:role="line">May 5, 1712</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:6.61458302px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#1a61dc;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="400.92804"
+         y="-82.457947"
+         id="text1494"><tspan
+           sodipodi:role="line"
+           id="tspan1492"
+           x="400.92804"
+           y="-82.457947"
+           style="font-size:4.23333311px;fill:#1a61dc;fill-opacity:1;stroke-width:0.26458332px">edit</tspan></text>
+    </g>
+    <g
+       id="g1353"
+       transform="translate(465.66665,-238.125)">
+      <rect
+         y="58.874966"
+         x="2.0345053e-05"
+         height="238.125"
+         width="423.33334"
+         id="rect1498-6"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.26458332;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <rect
+         y="58.874966"
+         x="2.0345053e-05"
+         height="15.875001"
+         width="423.33334"
+         id="rect817-0"
+         style="opacity:1;fill:#707070;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.66250944;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         id="text821-6"
+         y="68.758942"
+         x="5.7068534"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;line-height:6.61458349px;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#ffffff;fill-opacity:1;stroke-width:0.26458332px"
+           y="68.758942"
+           x="5.7068534"
+           id="tspan819-4"
+           sodipodi:role="line">Database of Indigenous Slavery in the Americas - Editor</tspan></text>
+      <text
+         id="text862-0"
+         y="92.894592"
+         x="4.6684623"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;line-height:6.61458349px;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.26458332px"
+           y="92.894592"
+           x="4.6684623"
+           id="tspan860-9"
+           sodipodi:role="line">The Accounts of Severus Flint</tspan></text>
+      <text
+         id="text1631"
+         y="106.49997"
+         x="5.291687"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:6.61458302px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.26458332px"
+           y="106.49997"
+           x="5.291687"
+           id="tspan1629"
+           sodipodi:role="line">Account</tspan></text>
+      <text
+         id="text1635"
+         y="106.49997"
+         x="47.625019"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:6.61458302px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.26458332px"
+           y="106.49997"
+           x="47.625019"
+           id="tspan1633"
+           sodipodi:role="line">June 9, 1752</tspan></text>
+      <text
+         id="text883"
+         y="106.49997"
+         x="89.958336"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:6.61458302px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.26458332px"
+           y="106.49997"
+           x="89.958336"
+           id="tspan881"
+           sodipodi:role="line">Boston, Massachusetts</tspan></text>
+      <rect
+         style="opacity:1;fill:#f9f9f9;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.26458332;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect1452-5"
+         width="412.81012"
+         height="15.802793"
+         x="5.2916665"
+         y="117.08331" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:6.61458349px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="10.493495"
+         y="126.56288"
+         id="text1456-5"><tspan
+           sodipodi:role="line"
+           id="tspan1454-4"
+           x="10.493495"
+           y="126.56288"
+           style="font-weight:bold;font-size:4.23333311px;stroke-width:0.26458332px">Account of the Year 1751</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:6.61458349px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="155.65466"
+         y="126.56288"
+         id="text1460-9"><tspan
+           sodipodi:role="line"
+           id="tspan1458-8"
+           x="155.65466"
+           y="126.56288"
+           style="font-size:4.23333311px;stroke-width:0.26458332px">4 Persons</tspan></text>
+      <text
+         id="text1464-3"
+         y="126.49777"
+         x="89.823006"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:6.61458349px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-size:4.23333311px;stroke-width:0.26458332px"
+           y="126.49777"
+           x="89.823006"
+           id="tspan1462-8"
+           sodipodi:role="line">January 1, 1751</tspan></text>
+      <text
+         id="text1472-2"
+         y="126.56288"
+         x="400.92804"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:6.61458349px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#1a61dc;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-size:4.23333311px;fill:#1a61dc;fill-opacity:1;stroke-width:0.26458332px"
+           y="126.56288"
+           x="400.92804"
+           id="tspan1470-2"
+           sodipodi:role="line">edit</tspan></text>
+      <rect
+         y="140.89578"
+         x="5.2916665"
+         height="15.802793"
+         width="412.81012"
+         id="rect1474-7"
+         style="opacity:1;fill:#f9f9f9;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.26458332;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         id="text1478-0"
+         y="150.37537"
+         x="10.493495"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:6.61458349px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-weight:bold;font-size:4.23333311px;stroke-width:0.26458332px"
+           y="150.37537"
+           x="10.493495"
+           id="tspan1476-3"
+           sodipodi:role="line">Account of the Year 1750</tspan></text>
+      <text
+         id="text1482-4"
+         y="150.37537"
+         x="155.65466"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:6.61458349px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-size:4.23333311px;stroke-width:0.26458332px"
+           y="150.37537"
+           x="155.65466"
+           id="tspan1480-6"
+           sodipodi:role="line">3 Persons</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:6.61458349px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="89.823021"
+         y="150.31026"
+         id="text1486-3"><tspan
+           sodipodi:role="line"
+           id="tspan1484-6"
+           x="89.823021"
+           y="150.31026"
+           style="font-size:4.23333311px;stroke-width:0.26458332px">January 1, 1750</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:6.61458349px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#1a61dc;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="400.92804"
+         y="150.37537"
+         id="text1494-4"><tspan
+           sodipodi:role="line"
+           id="tspan1492-4"
+           x="400.92804"
+           y="150.37537"
+           style="font-size:4.23333311px;fill:#1a61dc;fill-opacity:1;stroke-width:0.26458332px">edit</tspan></text>
+      <path
+         sodipodi:nodetypes="cccccc"
+         inkscape:connector-curvature="0"
+         id="path963"
+         d="m 27.20999,103.52341 0.901989,0.90199 -2.10464,2.10464 -1.202652,0.30066 0.300663,-1.20265 z"
+         style="opacity:1;fill:#c6c6c6;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.06013259;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cccccc"
+         inkscape:connector-curvature="0"
+         id="path963-5"
+         d="m 79.254734,103.49334 0.901989,0.90199 -2.10464,2.10464 -1.202652,0.30066 0.300663,-1.20265 z"
+         style="opacity:1;fill:#c6c6c6;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.06013259;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cccccc"
+         inkscape:connector-curvature="0"
+         id="path963-8"
+         d="m 142.30374,103.52341 0.90199,0.90199 -2.10464,2.10464 -1.20266,0.30066 0.30067,-1.20265 z"
+         style="opacity:1;fill:#c6c6c6;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.06013259;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <g
+       id="g1318"
+       transform="translate(439.52743,-244.11381)">
+      <rect
+         y="64.863777"
+         x="491.80591"
+         height="238.125"
+         width="423.33334"
+         id="rect1498-6-7"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.26458332;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <rect
+         y="64.59919"
+         x="491.80591"
+         height="15.875001"
+         width="423.33334"
+         id="rect817-0-0"
+         style="opacity:1;fill:#707070;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.66250944;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         id="text821-6-4"
+         y="74.483162"
+         x="497.51273"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;line-height:6.61458349px;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#ffffff;fill-opacity:1;stroke-width:0.26458332px"
+           y="74.483162"
+           x="497.51273"
+           id="tspan819-4-6"
+           sodipodi:role="line">Database of Indigenous Slavery in the Americas - Editor</tspan></text>
+      <text
+         id="text862-0-6"
+         y="98.618813"
+         x="496.47433"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;line-height:6.61458349px;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.26458332px"
+           y="98.618813"
+           x="496.47433"
+           id="tspan860-9-0"
+           sodipodi:role="line">Account of the Year 1750</tspan></text>
+      <text
+         id="text1631-0"
+         y="112.22422"
+         x="497.09756"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:6.61458349px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.26458332px"
+           y="112.22422"
+           x="497.09756"
+           id="tspan1629-6"
+           sodipodi:role="line">Account</tspan></text>
+      <text
+         id="text1635-2"
+         y="112.22422"
+         x="539.43091"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:6.61458349px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.26458332px"
+           y="112.22422"
+           x="539.43091"
+           id="tspan1633-6"
+           sodipodi:role="line">January 1, 1750</tspan></text>
+      <rect
+         style="opacity:1;fill:#f9f9f9;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.26458332;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect1452-5-4"
+         width="412.81015"
+         height="15.802793"
+         x="497.09756"
+         y="122.80753" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:6.61458349px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="502.00061"
+         y="131.79517"
+         id="text1456-5-1"><tspan
+           sodipodi:role="line"
+           id="tspan1454-4-4"
+           x="502.00061"
+           y="131.79517"
+           style="font-weight:bold;font-size:4.23333311px;stroke-width:0.26458332px">Mary Jane</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:6.61458349px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="647.46057"
+         y="131.81171"
+         id="text1460-9-2"><tspan
+           sodipodi:role="line"
+           id="tspan1458-8-0"
+           x="647.46057"
+           y="131.81171"
+           style="font-size:4.23333311px;stroke-width:0.26458332px">Wampanoag</tspan></text>
+      <text
+         id="text1464-3-1"
+         y="132.28711"
+         x="581.62891"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:6.61458349px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-size:4.23333311px;stroke-width:0.26458332px"
+           y="132.28711"
+           x="581.62891"
+           id="tspan1462-8-0"
+           sodipodi:role="line">Indian</tspan></text>
+      <text
+         id="text1472-2-3"
+         y="132.28711"
+         x="892.73389"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:6.61458349px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#1a61dc;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-size:4.23333311px;fill:#1a61dc;fill-opacity:1;stroke-width:0.26458332px"
+           y="132.28711"
+           x="892.73389"
+           id="tspan1470-2-4"
+           sodipodi:role="line">edit</tspan></text>
+      <path
+         sodipodi:nodetypes="cccccc"
+         inkscape:connector-curvature="0"
+         id="path963-51"
+         d="m 519.01588,109.24765 0.90199,0.90198 -2.10464,2.10465 -1.20265,0.30065 0.30066,-1.20265 z"
+         style="opacity:1;fill:#c6c6c6;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.06013259;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cccccc"
+         inkscape:connector-curvature="0"
+         id="path963-5-9"
+         d="m 576.23202,109.57836 0.90199,0.90198 -2.10464,2.10465 -1.20266,0.30065 0.30067,-1.20265 z"
+         style="opacity:1;fill:#c6c6c6;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.06013259;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         id="text1099"
+         y="132.20529"
+         x="541.9837"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:6.61458302px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-size:4.93888903px;stroke-width:0.26458332px"
+           y="132.20529"
+           x="541.9837"
+           id="tspan1097"
+           sodipodi:role="line">♀</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:6.61458349px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="703.22357"
+         y="132.24991"
+         id="text1460-9-2-2"><tspan
+           sodipodi:role="line"
+           id="tspan1458-8-0-0"
+           x="703.22357"
+           y="132.24991"
+           style="font-size:4.23333311px;stroke-width:0.26458332px">Servant</tspan></text>
+      <rect
+         style="opacity:1;fill:#f9f9f9;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.26458332;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect1452-5-4-2"
+         width="412.81018"
+         height="15.802793"
+         x="497.09753"
+         y="146.62003" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:6.61458349px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="502.00058"
+         y="155.60767"
+         id="text1456-5-1-4"><tspan
+           sodipodi:role="line"
+           id="tspan1454-4-4-9"
+           x="502.00058"
+           y="155.60767"
+           style="font-weight:bold;font-size:4.23333311px;stroke-width:0.26458332px">Abigail</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:6.61458349px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="647.46057"
+         y="155.62421"
+         id="text1460-9-2-9"><tspan
+           sodipodi:role="line"
+           id="tspan1458-8-0-9"
+           x="647.46057"
+           y="155.62421"
+           style="font-size:4.23333311px;stroke-width:0.26458332px">Wampanoag</tspan></text>
+      <text
+         id="text1464-3-1-5"
+         y="156.09961"
+         x="581.62891"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:6.61458349px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-size:4.23333311px;stroke-width:0.26458332px"
+           y="156.09961"
+           x="581.62891"
+           id="tspan1462-8-0-0"
+           sodipodi:role="line">Indian</tspan></text>
+      <text
+         id="text1472-2-3-3"
+         y="156.09961"
+         x="892.73389"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:6.61458349px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#1a61dc;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-size:4.23333311px;fill:#1a61dc;fill-opacity:1;stroke-width:0.26458332px"
+           y="156.09961"
+           x="892.73389"
+           id="tspan1470-2-4-7"
+           sodipodi:role="line">edit</tspan></text>
+      <text
+         id="text1099-0"
+         y="156.01779"
+         x="541.9837"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:6.61458349px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-size:4.93888903px;stroke-width:0.26458332px"
+           y="156.01779"
+           x="541.9837"
+           id="tspan1097-4"
+           sodipodi:role="line">♀</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:6.61458349px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="703.22357"
+         y="156.06241"
+         id="text1460-9-2-2-9"><tspan
+           sodipodi:role="line"
+           id="tspan1458-8-0-0-4"
+           x="703.22357"
+           y="156.06241"
+           style="font-size:4.23333311px;stroke-width:0.26458332px">Slave</tspan></text>
+      <rect
+         style="opacity:1;fill:#f9f9f9;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.26458332;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect1452-5-4-2-8"
+         width="412.81018"
+         height="15.802793"
+         x="497.03735"
+         y="170.43253" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:6.61458349px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="501.9404"
+         y="179.42017"
+         id="text1456-5-1-4-9"><tspan
+           sodipodi:role="line"
+           id="tspan1454-4-4-9-0"
+           x="501.9404"
+           y="179.42017"
+           style="font-weight:bold;font-size:4.23333311px;stroke-width:0.26458332px">John</tspan></text>
+      <text
+         id="text1464-3-1-5-2"
+         y="179.91211"
+         x="581.56873"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:6.61458349px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-size:4.23333311px;stroke-width:0.26458332px"
+           y="179.91211"
+           x="581.56873"
+           id="tspan1462-8-0-0-2"
+           sodipodi:role="line">Indian</tspan></text>
+      <text
+         id="text1472-2-3-3-5"
+         y="179.91211"
+         x="892.67377"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:6.61458349px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#1a61dc;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-size:4.23333311px;fill:#1a61dc;fill-opacity:1;stroke-width:0.26458332px"
+           y="179.91211"
+           x="892.67377"
+           id="tspan1470-2-4-7-6"
+           sodipodi:role="line">edit</tspan></text>
+      <text
+         id="text1099-0-2"
+         y="179.83029"
+         x="541.92346"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:6.61458349px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-size:4.93888903px;stroke-width:0.26458332px"
+           y="179.83029"
+           x="541.92346"
+           id="tspan1097-4-1"
+           sodipodi:role="line">♂</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:6.61458349px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="703.16339"
+         y="179.87491"
+         id="text1460-9-2-2-9-8"><tspan
+           sodipodi:role="line"
+           id="tspan1458-8-0-0-4-1"
+           x="703.16339"
+           y="179.87491"
+           style="font-size:4.23333311px;stroke-width:0.26458332px">Slave</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:6.61458349px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="774.39124"
+         y="179.84702"
+         id="text1460-9-2-2-9-8-3"><tspan
+           sodipodi:role="line"
+           id="tspan1458-8-0-0-4-1-0"
+           x="774.39124"
+           y="179.84702"
+           style="font-size:4.23333311px;stroke-width:0.26458332px">Porter</tspan></text>
+    </g>
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.58749998;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow1Send)"
+       d="m 412.74999,-131.62503 c 6.7577,-17.12508 12.73267,-34.66035 47.625,-37.04167"
+       id="path1396"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.58749998;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow1Send-7)"
+       d="m 885.30951,-85.929825 c 24.85716,7.221462 5.83983,-80.355555 40.73216,-82.736875"
+       id="path1396-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+  </g>
+</svg>
