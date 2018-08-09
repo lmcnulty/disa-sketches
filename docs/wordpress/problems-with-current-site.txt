@@ -1,0 +1,6 @@
+Disa's current site at indigenousslavery.org has a number of design and useability problems.
+
+- On the initial page load, the user sees a picture and heading, but no call to action.
+- The text on the front page is spread out too far. The user has to scroll too much to see the relevent content, and the overall structure of the page is obscured.
+- A lot of the information on the front page is duplicated on other top-level pages. For instance, the entire content of the "About" page is contained in the second section on the front page.
+- Several of the top-level pages could probably be combined or made into sub-pages. eg. "People" can probably go under "About" .
