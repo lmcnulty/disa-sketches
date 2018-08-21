@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Database of Indigenous Slavery In The Americas</title>
+	<style>
+	html, body {
+		height: 100%;
+	}
+	body {
+		margin: 0px;
+		font-size: 14pt;
+		font-family: "Open Sans", sans-serif;
+	}
+	aside {
+		color: white;
+		background-color: #424559;
+		width: 210px;
+		flex-grow: 0;
+		padding: 20px 40px 20px 40px;
+		position: fixed;
+		top: 0px;
+		bottom: 0px;
+		left: 0px;
+	}
+	aside a {
+		color: white;
+	}
+	.textbody {
+		max-width: 800px;
+	}
+	main {
+		padding: 20px 40px 20px 40px;
+		color: black;
+		flex-grow: 2;
+		background-color: #F9F9F9;
+		height: calc(100% - 40px);
+		overflow-y: auto;
+		position: absolute;
+		top: 0px;
+		left: 290px;
+		right: 0px;
+	}
+	main h2 {
+		font-size: 24pt;
+		margin-top: 0px;
+		text-decoration: underline;
+	}
+	#logo {
+		margin: 0px;
+		font-size: 24pt;
+		text-align: center;
+	}
+	#view-db-container {
+		position: absolute;
+		bottom: 0px;
+		left: 0px;
+		right: 0px;
+		text-align: center;
+		padding-bottom: 30px;
+		padding-top: 30px;
+		/*background-color: #252946;*/
+		/*border-top: 4px solid black;*/
+	}
+	#view-db-container button {
+		font-weight: bold;
+		background-color: #64CC6D;
+		/*background: linear-gradient(#64CC6D, #52AC5A);*/
+		font-size: 14pt;
+		color: white;
+		border: none;
+		padding: 15px;
+		border-radius: 5px;
+		box-shadow: 0px 3px 8px 2px rgba(0, 0, 0, .6);
+		border: 2px solid #509756;
+	}
+	main hr {
+		width: 90%;
+		margin: 20px 0px 20px 0px;
+		border: none;
+		border-top: 2px solid #CCC;
+	}
+	aside ul {
+		list-style-type: none;
+		margin-left: 0px;
+		padding-left: 0px;
+	}
+	aside ul li {
+		margin-left: 0px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	</style>
+</head>
+<body>
+	<aside>
+		<h1 id="logo"><a href="#top">DISA</a></h1>
+		<ul>
+			<li><a href="#about">About</a></li>
+			<li><a href="#people">People</a></li>
+			<li><a href="#blog">Blog</a></li>
+			<li><a href="#contribute">Contribute</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+		<div id="view-db-container">
+			<button>View Database</button>
+		</div>
+	</aside>
+	<main>
+		<h2 id="top">Database of Indigenous Slavery In The Americas</h2>
+		<div class="textbody">
+			<section>
+			Welcome to the Database of Indigenous Slavery in the Americas (DISA). This project, housed at Brown University, is a collaborative effort to build a database of enslaved indigenous people throughout time all across the Americas. Please note that this site is under construction, and the database does not yet have a public portal. We are actively working on this project, however, and and are looking for volunteers and scholars to contribute materials. We invite you to scroll down or visit our About page to learn more about the project and how to contribute.
+			</section>
+			<hr>
+			<section id="about">
+				<h3 class="entry-title">About</h3>
+				<p><strong>The concept:</strong></p>
+				<p>The Database of Indigenous Slavery in the Americas (DISA), is a database that seeks to document as many instances of indigenous enslavement in the Americas between 1492 and 1900 (and beyond, where relevant).<strong>&nbsp;</strong>The hemispheric study of Native American slavery represents cutting-edge research in multi-lingual and multi-national contexts in the Americas. Scholars now estimate that between 2.5 and 5 million Natives were enslaved in the Americas between 1492 and the late nineteenth century – an astonishing number by any measure (even compared to the approximately 12 million Africans who were brought as slaves from Africa in this same time period). DISA will allow the slow centralization of biographical information related to enslaved indigenous people and place them online where historians, researchers, students, tribal members, and families can use the information to reconstruct histories, chart networks, and make connections in ways that have never before been possible.</p>
+				<p><strong>Timeline:</strong></p>
+				<p>We are currently applying for larger grants and hope to have a public-facing prototype in the summer of 2018.</p>
+				<p><strong>How to contribute:</strong></p>
+				<p>In this early phase, the database is not yet public. While we are working on funding, a small team of researchers is slowly adding to the database. We are looking to partner with individuals and institutions who are willing to send materials they have or join our research team to input materials directly. Please contact <a href="https://vivo.brown.edu/display/lf7">Linford D. Fisher</a> to learn more.</p>
+				<p><strong>Acknowledgements</strong></p>
+				<p>DISA has been generously funded and supported by the following entities:</p>
+				<p style="padding-left: 30px;"><a href="https://www.brown.edu/academics/population-studies/">Population Studies and Training Center</a>, Brown University</p>
+				<p style="padding-left: 30px;"><a href="https://www.brown.edu/initiatives/social-science-research/">Social Sciences Research Institute</a>, Brown University</p>
+				<p style="padding-left: 30px;"><a href="https://www.brown.edu/research/conducting-research-brown/about-office">Office of the Vice President for Research</a>, Brown University</p>
+				<p style="padding-left: 30px;"><a href="https://library.brown.edu/cds/">Center for Digital Scholarship</a>, Brown University Library</p>
+			</section>
+			<hr>
+			<section id="people">
+				<h3 class="entry-title">People</h3>
+				<p>The Database of Indigenous Slavery in the Americas involves the following people.</p>
+				<p><strong>Core team:</strong></p>
+				<ul>
+					<li><a href="https://vivo.brown.edu/display/lf7" target="_blank" rel="noopener">
+						Linford D. Fisher</a>, Associate Professor of History, Brown University (Principal Investigator)
+					</li>
+					<li>Elli Mylonas, Senior Digital Humanities Librarian and Director of the Center for Digital Scholarship, Brown University Library</li>
+					<li>Paarul Arulappa, M.A. candidate, Brown University (programmer)</li>
+					<li>Brooke Grasberger, Ph.D. student, Department of History, Brown University (Graduate Student Coordinator)</li>
+					<li>Marley-Vincent Lindsey, Ph.D. candidate, Department of History, Brown University (Research Assistant)</li>
+					<li>Juan Bettancourt-Garcia, Ph.D. student, Department of History, Brown University</li>
+					<li>Samuel Skinner, undergraduate research assistant, Brown University</li>
+				</ul>
+				<p><strong>Board of Advisors:</strong></p>
+				<ul>
+					<li>Tony Bogues, Director of the Center for the Study of Slavery (CSSJ) and Justice and Asa Messer Professor of Humanities and Critical Theory, Brown University</li>
+					<li>Brian Croxall, Assistant Research Professor of Digital Humanities, Brigham Young University</li>
+					<li>Roquinaldo Feirerra, Vasco da Gama Associate Professor of Early Modern Portuguese History, Brown University</li>
+					<li>Alan Gallay, Lyndon B. Johnson Chair of American History, Texas Christian University</li>
+					<li>Rebecca A. Goetz, Associate Professor of History, New York University</li>
+					<li>Walter Hawthorne, Professor of History, Michigan State University</li>
+					<li>Jane Landers, Professor of History, Vanderbilt University</li>
+					<li>Jason Mancini, Director, Connecticut Humanities</li>
+					<li>Ross Mulcare, Assistant Director for Digital Engagement and Discovery, John Carter Brown Library; Cherokee Nation of Oklahoma</li>
+					<li>Greg O’Malley, Associate Professor of History, UC Santa Cruz</li>
+					<li>Marjory O’Toole, Little Compton Historical Society</li>
+					<li>Emily Owens, Assistant Professor of History, Brown University</li>
+					<li>Paula Peters, writer and historian, Mashpee Wampanoag</li>
+					<li>Brett Rushforth, Assistant Professor of History, University of Oregon</li>
+					<li>Nancy van Deusen, Professor of History, Queen’s University (Ontario, Canada)</li>
+					<li>Tall Oak Weeden, historian and activist, Wampanoag and Pequot</li>
+				</ul>
+			</section>
+			<hr>
+			<section id="blog">
+				<h3>Latest Blog Entry</h3>
+				<h4>DISA: a brief introduction and update </h4>
+				<p>Greetings, and thanks for visiting this site. The idea for a database that centralizes all known biographical information about known instances of indigenous slavery in the Americas has been percolating for some time. In 2015 I began to slowly apply for small amounts of funding internally here at Brown to take the first steps towards amassing data and building a website. I’m grateful that the Center for Digital Scholarship here at Brown has been willing to generously help out in terms of computer programming and tech support... [<a href="">Continue</a>]</p>
+				<p><a href="">View all Blog Posts</a></p>
+			</section>
+			<hr>
+			<section id="contribute">
+			<h3 class="entry-title">Contribute</h3>			<!-- .entry-header -->
+			<p>In this early phase, the database is not yet public. While we are working on funding, a small team of researchers is slowly adding to the database. You can contribute to this project by sending us any and all listings or spreadsheets of indigenous slaves that you have compiled in your own research. Please email them to: linford_fisher@brown.edu</p>
+			</section>
+			<hr>
+			<section id="contact">
+				<h3 class="entry-title">Contact</h3>
+				<p>We’d love to hear from you. Feel free to use the form below to provide feedback on the site or to contact us if you have information for our database.</p>
+				<form action="https://indigenousslavery.org/contact/#contact-form-3" method="post" class="contact-form commentsblock">
+					<table style="max-width: 100%">	
+							<tr>
+								<td><label for="g3-name" class="grunion-field-label name">Name <span>(required)</span></label></td>
+								<td><input name="g3-name" id="g3-name" value="" class="name" required="" type="text"></td>
+							</tr>
+							<tr>
+								<td><label for="g3-email" class="grunion-field-label email">Email <span>(required)</span></label></td>
+								<td><input name="g3-email" id="g3-email" value="" class="email" required="" type="email"></td>
+							</tr>
+							<tr>
+								<td><label for="g3-website" class="grunion-field-label url">Website </label></td>
+								<td><input name="g3-website" id="g3-website" value="" class="url" type="url"></td>
+							</tr>
+							<tr>
+								<td><label for="contact-form-comment-g3-comment" class="grunion-field-label textarea">Comment <span>(required)</span></label></td>
+								<td><textarea name="g3-comment" id="contact-form-comment-g3-comment" rows="20" class="textarea" required="" style="width: 500px; height: 150px;"></textarea></td>
+							</tr>
+							<tr>
+								<td colspan="2">
+								<input value="Submit »" class="pushbutton-wide" type="submit">
+								<input name="contact-form-id" value="3" type="hidden">
+								<input name="action" value="grunion-contact-form" type="hidden">
+								<input name="contact-form-hash" value="6c040f6a54d08b15498e9bfb7b96b14497ae1c45" type="hidden">
+								</td>
+							</tr>
+						</table>
+					</form>
+			</section>
+		</div>
+		<br>
+	</main>
+</body>
+</html>

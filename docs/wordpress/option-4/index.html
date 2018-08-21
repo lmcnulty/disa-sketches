@@ -18,8 +18,9 @@
 		box-shadow: 0px 0px 2px 3px rgba(0, 0, 0, .3);
 		display: flex;
 		align-items: center;
-		height: 50px;
+		height: 35px;
 		z-index: 100;
+		border-bottom: 3px solid whitesmoke;
 	}
 	header h1 {
 		display: inline;
@@ -35,47 +36,26 @@
 	}
 	main {
 		position: absolute;
-		top: 70px;	
+		top: 55px;	
 	}
 	main section {
 		padding: 40px 110px 40px 110px;
 		/*outline: 2px solid black;*/
-		background-color: #E4E4E4; /*lightgrey;*/
+		background-color: #333;/*#E4E4E4; lightgrey;*/
+		color: white;
 		overflow: auto;
 		font-size: 12pt;
 		line-height: 1.6;
+		min-height: calc(100vh - 135px);
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
-	main section:nth-child(3n+2) {
-		background-color: #7B8866 /*#4C804C*/;
-		color: white;
+	main section a {
+		color: #46C9FF;
 	}
-	main section:nth-child(3n+2) a {
-		color: gold;
-	}
-	main section:nth-child(3n+0) {
-		background-color: #5C617D /*#4C804C*/;
-		color: white;
-	}
-	main section:nth-child(3n+0) a {
-		color: gold;
-	}
-	input[type=text], input[type=email], input[type=url], textarea {
-		border: 1px solid black;
-		background-color: #84879C;
-		color: white;
-		padding: 4px;
-	}
+
 	#goto-button {
-		/*margin-right: 10px;
-		margin-left: auto;
-		background: #111;
-		color: white;
-		border: 0px;
-		border-radius: 5px;
-		padding: 7px;
-		font-size: 14pt;
-		font-weight: bold;
-		*/
 		margin-right: 10px;
 		margin-left: auto;
 		background: #6AD25B; /*#4C804C; /*#3BBC3B*/;
@@ -86,17 +66,30 @@
 		padding: 7px;
 		font-size: 14pt;
 		font-weight: bold;
-	
 	}
 	img {
 		max-width: 100%;
 	}
+	.narrow-text-container {
+		max-width: 900px;
+		font-size: 15pt;
+		margin-top: -100px;
+	}
 	.floating-image-container {
 		max-width: 400px;
 	}
+	.section-container {
+		
+	}
+	input[type=text], input[type=email], input[type=url], textarea {
+		border: 1px solid black;
+		background-color: #5A5A5A;
+		color: white;
+		padding: 4px;
+	}
 </style>
 </head>
-<body>
+<body lang="en">
 	<header>
 		<h1>DISA</h1>
 		<a href="#about">About</a>
@@ -104,24 +97,26 @@
 		<a href="#contact">Contact</a>
 		<a href="#blog">Blog</a>
 		<a href="#contribute">Contribute</a>
-		<button id="goto-button">View Database</button>
+		<button id="goto-button">View DB</button>
 	</header>
 	<main>
-		<section id="home">
-			<div class="floating-image-container" style="float: left; margin-right: 40px;">
+		<section id="home" style="position: relative; color: white; background-color: black;">
+			<div style="background: url('provinciae.png'); background-size: cover; background-position: center; background-color: black; filter: blur(4px) brightness(80%); position: absolute; top: 0px; bottom: 0px; left: 0px; right: 0px;"></div>
+			<div class="section-container" style="z-index: 50; max-width: 900px; margin-top: -80px; font-size: 15pt; text-align: justify; hyphens: auto; /*background: rgba(0, 0, 0, .6); color: white; padding: 20px; margin-top: -80px; box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, .3);  margin-left: -400px; max-width: 600px;*/">
+			<!--<div class="floating-image-container" style="float: left; margin-right: 40px;">
 				<img src="caribbean1.png">
-			</div>
-			<h2>Home</h2>
+			</div>-->
 			<p>Welcome to the Database of Indigenous Slavery in the Americas (DISA). This project, housed at Brown University, is a collaborative effort to build a database of enslaved indigenous people throughout time all across the Americas. Please note that this site is under construction, and the database does not yet have a public portal. We are actively working on this project, however, and and are looking for volunteers and scholars to contribute materials. We invite you to scroll down or visit our About page to learn more about the project and how to contribute.</p>
+			</div>
 		</section>	
 		<section id="about">
-			
+			<div>	
 			<h2 class="entry-title">About</h2>
 			<div class="entry-content">
 				
 				<p><strong>The concept:</strong></p>
-				<div class="floating-image-container" style="float: right; margin-left: 40px;">
-				<img src="provinciae.png">
+				<!--<div class="floating-image-container" style="float: right; margin-left: 40px;">
+				<img src="provinciae.png">-->
 			</div>
 <p>The Database of Indigenous Slavery in the Americas (DISA), is a database that seeks to document as many instances of indigenous enslavement in the Americas between 1492 and 1900 (and beyond, where relevant).<strong>&nbsp;</strong>The hemispheric study of Native American slavery represents cutting-edge research in multi-lingual and multi-national contexts in the Americas. Scholars now estimate that between 2.5 and 5 million Natives were enslaved in the Americas between 1492 and the late nineteenth century – an astonishing number by any measure (even compared to the approximately 12 million Africans who were brought as slaves from Africa in this same time period). DISA will allow the slow centralization of biographical information related to enslaved indigenous people and place them online where historians, researchers, students, tribal members, and families can use the information to reconstruct histories, chart networks, and make connections in ways that have never before been possible.</p>
 <p><strong>Timeline:</strong></p>
@@ -133,12 +128,15 @@
 <p style="padding-left: 30px;"><a href="https://www.brown.edu/academics/population-studies/">Population Studies and Training Center</a>, Brown University</p>
 <p style="padding-left: 30px;"><a href="https://www.brown.edu/initiatives/social-science-research/">Social Sciences Research Institute</a>, Brown University</p>
 <p style="padding-left: 30px;"><a href="https://www.brown.edu/research/conducting-research-brown/about-office">Office of the Vice President for Research</a>, Brown University</p>
-<p style="padding-left: 30px;"><a href="https://library.brown.edu/cds/">Center for Digital Scholarship</a>, Brown University Library</p>
+<p style="padding-left: 30px;"><a href="https://library.brown.edu/cds/">Center for Digital Scholarship</a>, Brown University Library</p></div>
 		</section>
-		<section id="people">
+		<section id="people" style="position: relative;">
+		<div style="background: url('caribbean1.png'); background-size: cover; filter: blur(7px) brightness(110%); position: absolute; top: 0px; bottom: 0px; left: 0px; right: 0px; z-index: 0;">
+
+		</div>
+			<div style="color: black; z-index: 50;">
 <h2 class="entry-title">People</h2>
 				
-
 			<div class="entry-content">
 				<p>The Database of Indigenous Slavery in the Americas involves the following people.</p>
 <p><strong>Core team:</strong></p>
@@ -169,25 +167,33 @@
 <li>Brett Rushforth, Assistant Professor of History, University of Oregon</li>
 <li>Nancy van Deusen, Professor of History, Queen’s University (Ontario, Canada)</li>
 <li>Tall Oak Weeden, historian and activist, Wampanoag and Pequot</li>
+		</div>
 		</section>
 				<section id="blog">
+		<div class="narrow-text-container">
 		<h2>Latest Blog Entry</h2>
 		<h3>DISA: a brief introduction and update </h3>
 		<p>Greetings, and thanks for visiting this site. The idea for a database that centralizes all known biographical information about known instances of indigenous slavery in the Americas has been percolating for some time. In 2015 I began to slowly apply for small amounts of funding internally here at Brown to take the first steps towards amassing data and building a website. I’m grateful that the Center for Digital Scholarship here at Brown has been willing to generously help out in terms of computer programming and tech support... [<a href="">Continue</a>]</p>
 		<p><a href="">View all Blog Posts</a></p>
 		</section>
-<section id="contribute">
+<section id="contribute" style="position: relative;">
+			<div style="background: url('workers.jpg'); background-size: cover; background-position: center; background-color: black; filter: blur(4px) brightness(80%); position: absolute; top: 0px; bottom: 0px; left: 0px; right: 0px;"></div>
+<div style="z-index: 50; max-width: 900px; font-size: 15pt; margin-top: -100px;">
 <h1 class="entry-title">Contribute</h1>			</header><!-- .entry-header -->
 	<div class="entry-content">
-		<p><strong>How to contribute:</strong></p>
 <p>In this early phase, the database is not yet public. While we are working on funding, a small team of researchers is slowly adding to the database. You can contribute to this project by sending us any and all listings or spreadsheets of indigenous slaves that you have compiled in your own research. Please email them to: linford_fisher@brown.edu</p>
+		</div>
+		</div>
 		</section>
 <section id="contact">
+<div>
+
+<div class="narrow-text-container">
 		<h1 class="entry-title">Contact</h1>				<div class="entry-content">
 		<p>We’d love to hear from you. Feel free to use the form below to provide feedback on the site or to contact us if you have information for our database.</p>
 <div id="contact-form-3">
 <form action="https://indigenousslavery.org/contact/#contact-form-3" method="post" class="contact-form commentsblock">
-	<table>	
+<table style="max-width: 100%">	
 		<tr>
 			<td><label for="g3-name" class="grunion-field-label name">Name <span>(required)</span></label></td>
 			<td><input name="g3-name" id="g3-name" value="" class="name" required="" aria-required="true" type="text"></td>
@@ -213,10 +219,12 @@
 			</td>
 		</tr>
 	</table>
+	</div>
 </form>
 </div>
 <div class="sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded" id="like-post-wrapper-136731894-3-5b6c864959753" data-src="https://widgets.wp.com/likes/#blog_id=136731894&amp;post_id=3&amp;origin=indigenousslavery.org&amp;obj_id=136731894-3-5b6c864959753" data-name="like-post-frame-136731894-3-5b6c864959753"><h3 class="sd-title">Like this:</h3><div class="likes-widget-placeholder post-likes-widget-placeholder" style="height: 55px;"><span class="button"><span>Like</span></span> <span class="loading">Loading...</span></div><span class="sd-text-color"></span><a class="sd-link-color"></a></div>	</div><!-- .entry-content -->
-</section>
+
+</div></section>
 
 	</main>
 </body>

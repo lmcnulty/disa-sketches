@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style>
+	:root {
+		--header-height: 50px;
+		--footer-height: 50px;
+		--aside-width: 125px;
+	}
+	html {
+		background-color: #efefefef;
+		height: 100%;
+	}
+	body {
+		max-width: 1000px;
+		margin: 0px auto 0px auto;
+		position: relative;
+		min-height: 100%;
+		display: flex;
+		flex-direction: column;
+		height: 100%;
+		font-size: 12pt:
+	}
+	header {
+		background-color: lightgrey;
+		width: 100%;
+	}
+	footer {
+		width: 100%;
+		min-height: var(--footer-height);
+		background-color: lightgrey;
+	}
+	header h1 {
+		line-height: var(--header-height);
+		padding: 0px;
+		margin: 0px;
+		text-align: center;
+	}
+	aside {
+		top: var(--header-height);
+		width: var(--aside-width); 
+		flex-shrink: 0;
+		background: whitesmoke;
+		bottom: 0px;
+		padding: 10px;
+	}
+	aside a {
+		display: block;
+		margin: 10px 0px 10px 0px;
+	}
+	main h2 {
+		margin-top: 0px;
+	}
+	main {
+		padding: 10px;
+		background: white;
+		bottom: 0px;
+		overflow: auto;
+	}
+	p {
+		line-height: 1.6;
+	}
+	.hbox {
+		display: flex;
+		flex-grow: 100;
+	}
+	@media screen and (max-width: 480px) {
+		.hbox {
+			flex-wrap: wrap;
+		}
+		aside {
+			width: 100%;
+		}
+	}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Database of Indigenous Slavery in the Americas</h1>
+	</header>
+	<div class="hbox">
+		<aside>
+			<a href="">Home</a>
+			<a href="">About</a>
+			<a href="">People</a>
+			<a href="">Access Database</a>
+			<a href="">Contribute</a>
+			<a href="">Bibliography</a>
+			<a href="">Blog</a>
+			<a href="">Contact</a>
+		</aside>
+		<main>
+			<h2 class="entry-title">Home</h2>
+				<p>Welcome to the Database of Indigenous Slavery in the Americas (DISA). This project, housed at Brown University, is a collaborative effort to build a database of enslaved indigenous people throughout time all across the Americas. Please note that this site is under construction, and the database does not yet have a public portal. We are actively working on this project, however, and and are looking for volunteers and scholars to contribute materials. We invite you to scroll down or visit our <a href="https://indigenousslavery.org/about/">About</a> page to learn more about the project and how to contribute.</p>
+		<p>Voluptates qui consequatur cupiditate consequatur. Non debitis iusto omnis eos nemo reprehenderit placeat. Doloremque aspernatur harum aut dicta iste eligendi. Iure libero aliquam vitae aut.</p>
+
+<p>Voluptatem consectetur aliquid dolores quia omnis. Animi et animi sequi. Voluptate provident quidem facilis. Saepe ab laborum nihil numquam consectetur vel. Non sunt nesciunt dolores voluptas quia.</p>
+
+<p>A sunt excepturi aut ea perferendis. Atque repellat id reprehenderit consectetur saepe. Quidem laborum consequatur dignissimos nesciunt impedit eos. Consequatur dolorem nisi quia saepe fugiat. Explicabo doloribus aut dolorum ut repudiandae saepe velit.</p>
+
+<p>Maiores dolorum aut ab est. Et in saepe sunt accusamus quaerat culpa. A omnis qui tenetur doloremque veniam in est eos. Omnis sint consequatur et sunt et vel dignissimos.</p>
+
+<p>Accusantium enim explicabo aut reiciendis. Sint ipsam est tenetur nesciunt magni sed modi. Quis et voluptatum ex dolor occaecati corporis. Quisquam quaerat quaerat velit cupiditate nobis repellat. Voluptatum dicta dicta corrupti est.</p>
+		</main>
+	</div>
+	<footer>
+
+	</footer>
+</body>
+</html>

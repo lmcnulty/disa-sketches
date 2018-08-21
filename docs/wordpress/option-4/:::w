@@ -59,34 +59,16 @@
 	main section:nth-child(3n+0) a {
 		color: gold;
 	}
-	input[type=text], input[type=email], input[type=url], textarea {
-		border: 1px solid black;
-		background-color: #84879C;
-		color: white;
-		padding: 4px;
-	}
 	#goto-button {
-		/*margin-right: 10px;
-		margin-left: auto;
-		background: #111;
-		color: white;
-		border: 0px;
-		border-radius: 5px;
-		padding: 7px;
-		font-size: 14pt;
-		font-weight: bold;
-		*/
 		margin-right: 10px;
 		margin-left: auto;
-		background: #6AD25B; /*#4C804C; /*#3BBC3B*/;
+		background: #111 /*#4C804C; /*#3BBC3B*/;
 		color: white;
-		border: 0px;
-		border-radius: 5px;
-		box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, .1);
+		border: 2px solid #5A7B5A/*green /*#6FD26F*/;
+		/*border-radius: 5px;*/
 		padding: 7px;
 		font-size: 14pt;
 		font-weight: bold;
-	
 	}
 	img {
 		max-width: 100%;
@@ -187,32 +169,32 @@
 		<p>We’d love to hear from you. Feel free to use the form below to provide feedback on the site or to contact us if you have information for our database.</p>
 <div id="contact-form-3">
 <form action="https://indigenousslavery.org/contact/#contact-form-3" method="post" class="contact-form commentsblock">
-	<table>	
-		<tr>
-			<td><label for="g3-name" class="grunion-field-label name">Name <span>(required)</span></label></td>
-			<td><input name="g3-name" id="g3-name" value="" class="name" required="" aria-required="true" type="text"></td>
-		</tr>
-		<tr>
-			<td><label for="g3-email" class="grunion-field-label email">Email <span>(required)</span></label></td>
-			<td><input name="g3-email" id="g3-email" value="" class="email" required="" aria-required="true" type="email"></td>
-		</tr>
-		<tr>
-			<td><label for="g3-website" class="grunion-field-label url">Website </label></td>
-			<td><input name="g3-website" id="g3-website" value="" class="url" type="url"></td>
-		</tr>
-		<tr>
-			<td><label for="contact-form-comment-g3-comment" class="grunion-field-label textarea">Comment <span>(required)</span></label></td>
-			<td><textarea name="g3-comment" id="contact-form-comment-g3-comment" rows="20" class="textarea" required="" aria-required="true" style="width: 500px; height: 150px;"></textarea></td>
-		</tr>
-		<tr>
-			<td>
-			<input value="Submit »" class="pushbutton-wide" type="submit">
-			<input name="contact-form-id" value="3" type="hidden">
-			<input name="action" value="grunion-contact-form" type="hidden">
-			<input name="contact-form-hash" value="6c040f6a54d08b15498e9bfb7b96b14497ae1c45" type="hidden">
-			</td>
-		</tr>
-	</table>
+
+<div>
+		<label for="g3-name" class="grunion-field-label name">Name<span>(required)</span></label>
+		<input name="g3-name" id="g3-name" value="" class="name" required="" aria-required="true" type="text">
+	</div>
+
+<div>
+		<label for="g3-email" class="grunion-field-label email">Email<span>(required)</span></label>
+		<input name="g3-email" id="g3-email" value="" class="email" required="" aria-required="true" type="email">
+	</div>
+
+<div>
+		<label for="g3-website" class="grunion-field-label url">Website</label>
+		<input name="g3-website" id="g3-website" value="" class="url" type="url">
+	</div>
+
+<div>
+		<label for="contact-form-comment-g3-comment" class="grunion-field-label textarea">Comment<span>(required)</span></label>
+		<textarea name="g3-comment" id="contact-form-comment-g3-comment" rows="20" class="textarea" required="" aria-required="true"></textarea>
+	</div>
+	<p class="contact-submit">
+		<input value="Submit »" class="pushbutton-wide" type="submit">
+		<input name="contact-form-id" value="3" type="hidden">
+		<input name="action" value="grunion-contact-form" type="hidden">
+		<input name="contact-form-hash" value="6c040f6a54d08b15498e9bfb7b96b14497ae1c45" type="hidden">
+	</p>
 </form>
 </div>
 <div class="sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded" id="like-post-wrapper-136731894-3-5b6c864959753" data-src="https://widgets.wp.com/likes/#blog_id=136731894&amp;post_id=3&amp;origin=indigenousslavery.org&amp;obj_id=136731894-3-5b6c864959753" data-name="like-post-frame-136731894-3-5b6c864959753"><h3 class="sd-title">Like this:</h3><div class="likes-widget-placeholder post-likes-widget-placeholder" style="height: 55px;"><span class="button"><span>Like</span></span> <span class="loading">Loading...</span></div><span class="sd-text-color"></span><a class="sd-link-color"></a></div>	</div><!-- .entry-content -->
