@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Database of Indigenous Slavery in The Americas</title>
+	<style>
+		@font-face {
+			font-family: aleo;
+			src: url(Aleo-Light.otf);
+		}
+		html {
+			background-color: #5D5B4B;
+		}
+		html, body {
+			position: relative;
+			margin: 0px;
+			overflow: auto;
+		}
+		body {
+			max-width: 2000px;
+			background-color: #E2E0D3;
+			font-family: serif;
+			font-size: 14pt;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		header {
+			background-color: #5D5B4B;
+			background: url("records.jpg");
+			background-size: cover;
+			background-position: center;
+			height: 200px;
+			position: relative;
+			border-bottom: 5px solid #5D5B4B;
+		}
+		.hbox {
+			display: flex;
+		}
+		.col {
+			flex-grow: 0;
+			flex-shrink: 0;
+			min-height: 100%;
+		}
+		.col1 {
+			width: 250px;
+		}
+		.col2 {
+			width: calc((100% - 250px)/2);
+		}
+		.col3 {
+			width: calc((100% - 250px)/2);
+		}
+		#about {
+			background-color: #F2F1E9;
+			padding: 5px 20px 5px 20px;
+			margin: 20px 10px 0px 20px;
+			border-radius: 4px;
+			min-height: calc(100% - 30px);
+		}
+		#recent {
+			background-color: #F2F1E9;
+			padding: 5px 20px 5px 20px;
+			margin: 20px 20px 0px 10px;
+			border-radius: 4px;
+			min-height: calc(100% - 30px);
+		}
+		#navigation {
+			margin-top: 20px;
+			margin-left: 20px;
+		}
+		#navigation ul {
+			list-style-type: none;
+			margin: 0px;
+			padding: 0px;
+		}
+		#navigation li {
+			background-color: #F2F1E9;
+			margin-bottom: 10px;
+			border-radius: 4px;
+		}
+		#navigation li:hover {
+			background-color: #F7F7F2;
+		}
+		#navigation a {
+			color: #5D5B4B;
+			display: block;
+			padding: 5px 10px 5px 10px;
+		}
+		p {
+			line-height: 1.4;
+		}
+		#logo {
+			position: absolute;
+			bottom: 0px;
+			left: 20px;
+			font-size: 96pt;
+			margin: 0px;
+			font-family: aleo;
+			font-weight: lighter;
+			color: white;
+			color: rgba(255, 255, 255, .9);
+			z-index: 5;
+		}
+		header::after {
+			content: " ";
+			position: absolute;
+			top: 0px;
+			bottom: 0px;
+			left: 0px;
+			right: 0px;
+			background: linear-gradient(rgba(0,0,0,0) 40%, rgba(0,0,0,.3));
+			z-index: 4;
+		}
+		footer {
+			background-color: #5D5B4B;
+			color: white;
+			padding: 20px;
+			margin-top: 20px;
+			overflow: auto;
+		}
+		@media only screen and (max-width: 900px) {
+				.col {
+					width: calc(100% - 10px);
+				}
+				.hbox {
+					flex-wrap: wrap;
+				}
+				#navigation {
+					width: calc(100% - 30px);
+				}
+				#about, #recent {
+					margin-left: 20px;
+					margin-right: 10px;
+				}
+		}
+	</style>
+</head>
+<body>
+	<header>
+	<div id="logo">DISA</div>
+	
+	</header>
+	<div class="hbox">	
+		<div class="col col1">
+			<div id="navigation">
+				<ul>
+					<li><a href="">Home</a></li>
+					<li><a href="">About</a></li>
+					<li><a href="">Blog</a></li>
+					<li><a href="">Contact</a></li>
+					<li><a href="">Contribute</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="col col2">
+			<div id="about">
+				<h2>Home</h2>
+				<p>
+				Welcome to the Database of Indigenous Slavery in the Americas (DISA). This project, housed at Brown University, is a collaborative effort to build a database of enslaved indigenous people throughout time all across the Americas. Please note that this site is under construction, and the database does not yet have a public portal. We are actively working on this project, however, and and are looking for volunteers and scholars to contribute materials. We invite you to scroll down or visit our About page to learn more about the project and how to contribute.
+				</p>
+				<h2>Concept</h2>
+				<p>The Database of Indigenous Slavery in the Americas (DISA), is a database that seeks to document as many instances of indigenous enslavement in the Americas between 1492 and 1900 (and beyond, where relevant). The hemispheric study of Native American slavery represents cutting-edge research in multi-lingual and multi-national contexts in the Americas. Scholars now estimate that between 2.5 and 5 million Natives were enslaved in the Americas between 1492 and the late nineteenth century – an astonishing number by any measure (even compared to the approximately 12 million Africans who were brought as slaves from Africa in this same time period). 
+				</p>
+			</div>
+		</div>
+		<div class="col col3">
+			<div id="recent">
+				<h2>Recent Blog Posts</h2>
+				<h3>DISA: a brief introduction and update </h3>
+				<p>Greetings, and thanks for visiting this site. The idea for a database that centralizes all known biographical information about known instances of indigenous slavery in the Americas has been percolating for some time. In 2015 I began to slowly apply for small amounts of funding internally here at Brown to take the first steps towards amassing data and building a website. I’m grateful that the Center for Digital Scholarship here at Brown has been willing to generously help out in terms of computer programming and tech support... [<a href="">Continue</a>]</p>
+				<p><a href="">View all Blog Posts</a></p>
+			</div>
+		</div>
+	</div>
+	<footer>
+	<form style="float: right">
+	<input type="text" placeholder="Search this site..." style="background: #E2E0D3; border: 2px solid #8A8771; border-radius: 4px 0px 0px 4px; padding: 5px; margin: 0px;">
+	<input type="submit" value="s" style="margin: -5px; padding: 5px 10px 5px 10px; background-color: #A39F86; border: 2px solid #8A8771; border-left: 0px; border-radius: 0px 4px 4px 0px;">
+	</form>
+	</footer>
+</body>
+</html>
