@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="174.91887"
+   height="154"
+   viewBox="0 0 46.280616 40.745833"
+   version="1.1"
+   id="svg870"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="placeholder-logo.svg"
+   inkscape:export-filename="/home/luna/Projects/Active/Disa/Disa-Sketches/git-repo/docs/wordpress/option-1/placeholder-logo.png"
+   inkscape:export-xdpi="140.5"
+   inkscape:export-ydpi="140.5">
+  <defs
+     id="defs864" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="181.33908"
+     inkscape:cy="-139.08161"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1600"
+     inkscape:window-height="834"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     fit-margin-top="10"
+     fit-margin-left="10"
+     fit-margin-right="10"
+     fit-margin-bottom="10">
+    <inkscape:grid
+       type="xygrid"
+       id="grid1419"
+       originx="-1.8520838"
+       originy="-112.52794" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata867">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-1.8520838,-143.7262)">
+    <circle
+       style="opacity:1;fill:#85b6d3;fill-opacity:0.375;fill-rule:nonzero;stroke:none;stroke-width:0.29545137;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path816"
+       cx="22.225"
+       cy="164.09912"
+       r="17.727083" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.60592556px;line-height:12.62562275px;font-family:lato;-inkscape-font-specification:lato;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.29545137px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="19.270483"
+       y="161.23404"
+       id="text820"><tspan
+         sodipodi:role="line"
+         id="tspan818"
+         x="19.270483"
+         y="161.23404"
+         style="font-size:12.60592556px;line-height:12.62562275px;stroke-width:0.29545137px">Disa</tspan><tspan
+         sodipodi:role="line"
+         x="19.270483"
+         y="173.85966"
+         style="font-size:12.60592556px;line-height:12.62562275px;stroke-width:0.29545137px"
+         id="tspan822">Logo</tspan></text>
+  </g>
+</svg>

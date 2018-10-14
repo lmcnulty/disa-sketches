@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
 	:root {
-		--header-height: 90px;
+		--header-height: 140px;
 	}
 	h1, h2, h3, h4, h5, h6 {
 		margin-top: 0px;
@@ -51,6 +51,9 @@
 		flex-direction: column;
 		justify-content: center;
 	}
+	.text-container a {
+		color: lightblue;
+	}
 	.link-container {
 		display: table;
 		background-size: cover;
@@ -77,7 +80,7 @@
 		background-color: grey;
 	}
 	#learn-more {
-		background-image: url("./provinciae.png");
+		background-image: url("./eden.png");
 		grid-column: 1;
 		grid-row: 2;
 	}
@@ -100,6 +103,7 @@
 		width: calc(100% - 20px);
 		box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, .4);
 		z-index: 3;
+		font-size: 18pt;
 	}
 	header h1 {
 		margin: 0px;
@@ -112,7 +116,7 @@
 		margin-left: 10px;
 		margin-right: 10px;
 		color: black;
-		font-size: 14pt;
+		font-size: 16pt;
 	}
 	.spacer {
 		margin: auto;
@@ -125,35 +129,37 @@
 		flex-shrink: 2;
 		padding: 5px;
 		display: inline-block;
-		position: absolute;
 		right: 35px;
-		width: calc(100% - 47px);
 		height: calc(100% - 12px);
+		display: none;
 	}
 	#search-bar-container {
 		position: relative;
-		background-color: black;
+		/*background-color: black;*/
 		margin-left: 10px;
 		margin-right: 10px;
 		max-width: 300px;
-		width: 100%;
 		height: 35px;
 	}
 	#search-bar-container input[type=submit] {
-		content: "s";
+		/*content: "s";*/
 		color: white;
-		background-color: black;
-		width: 35px;
-		border: 1px solid black;
+		background-color: white;
+		border: 0px;
 		background: url('magnifier.svg');
 		background-size: 18px;
 		background-position: center;
 		background-repeat: no-repeat;
-		position: absolute;
+		/*position: absolute;
 		right: 0px;
 		top: 0px;
-		bottom: 0px;
+		bottom: 0px;*/
 		height: 100%;
+	}
+	#logo {
+		height: var(--header-height);
+		margin-left: -20px;
+		margin-bottom: -6px;
 	}
 	@media only screen and (max-width: 800px) {
 		main {
@@ -183,7 +189,10 @@
 			height: auto;
 			position: relative;
 			text-align: center;
-			padding: 10px;
+			padding: 20px;
+		}
+		#header-left-row {
+			margin: auto;
 		}
 		main {
 			position: relative;
@@ -194,27 +203,70 @@
 			display: block;
 			padding: 8px;
 		}
+		#header-left-row {
+			flex-direction: column;
+			height: auto;
+		}
 	}
+	#header-left-row {
+		/*width: 100%; */
+		/*max-height: var(--header-height);*/
+		display: flex;
+		align-items: center;
+	}
+	#goto-button {
+		/*margin-right: 10px;
+		margin-left: auto;
+		background: #111;
+		color: white;
+		border: 0px;
+		border-radius: 5px;
+		padding: 7px;
+		font-size: 14pt;
+		font-weight: bold;
+		*/
+		margin-right: 30px;
+		/*margin-left: auto;*/
+		background: #6AD25B; /*#4C804C; /*#3BBC3B*/;
+		color: white;
+		border: 0px;
+		border-radius: 5px;
+		box-shadow: 0px 1px 2px 2px rgba(0, 0, 0, .2);
+		padding: 7px;
+		font-size: 14pt;
+		font-weight: bold;
+	}
+	#goto-button:hover {
+		background: #88DF7C;
+	}
+	#goto-button:active {
+		background: #6AD25B;
+		box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, .2);
+	}
+
 </style>
 </head>
 <body>
 	<header>
-		<div style="width: 100%">
-			<h1 id="main-heading">
-				<!--Database of Indigenous Slavery in The Americas-->
+		<div id="header-left-row" style="margin-right: auto">
+			<a href=""><img src="logo.jpg" id="logo"/></a>
+			<!--<h1 id="main-heading">
+				Database of Indigenous Slavery in The Americas
 				DISA
-			</h1>
+			</h1>-->
 			<a href="">About</a>
 			<a href="">Blog</a>
 			<a href="">Contact</a>
 			<a href="">Contribute</a>
-			<a href="">Database</a>
-			
+			<!--<a href="">Database</a>-->
+			<form id="search-bar-container" style="">
+				<input type="text" id="search-bar" placeholder="search..."></input>
+				<input type="submit" id="search-submit" value=" ">
+			</form>	
 		</div>
-		<form id="search-bar-container">
-			<input type="text" id="search-bar" placeholder="search..."></input>
-			<input type="submit" value=" ">
-		</form>
+
+		
+		<button id="goto-button">View Database</button>
 	</header>
 	<main>
 		<div id="intro" class="text-container">
@@ -226,11 +278,12 @@
 		</div>
 		
 		<div id="the-concept" class="text-container">
-			<h2>Concept</h2>
-			The Database of Indigenous Slavery in the Americas (DISA), is a database that seeks to document as many instances of indigenous enslavement in the Americas between 1492 and 1900 (and beyond, where relevant). The hemispheric study of Native American slavery represents cutting-edge research in multi-lingual and multi-national contexts in the Americas. Scholars now estimate that between 2.5 and 5 million Natives were enslaved in the Americas between 1492 and the late nineteenth century – an astonishing number by any measure (even compared to the approximately 12 million Africans who were brought as slaves from Africa in this same time period). 
+			<h3>Latest Blog Entry — DISA: a brief introduction and update </h3>
+				<p>Greetings, and thanks for visiting this site. The idea for a database that centralizes all known biographical information about known instances of indigenous slavery in the Americas has been percolating for some time. In 2015 I began to slowly apply for small amounts of funding internally here at Brown to take the first steps towards amassing data and building a website. I’m grateful that the Center for Digital Scholarship here at Brown has been willing to generously help out in terms of computer programming and tech support... [<a href="">Continue</a>]</p>
+				<a href="">View all Blog Posts</a>
 		</div>
 		<div id="learn-more" class="link-container">
-			<a href="">Learn More</a>
+			<a href="">Featured: Dianah</a>
 		</div>
 	</main>
 	<script>
@@ -241,6 +294,15 @@
 				document.getElementById("main-heading").innerHTML = "Database of Indigenous Slavery in The Americas";
 			}
 		};*/
+		let searchSubmit = document.getElementById("search-submit");
+		let searchBar = document.getElementById("search-bar");
+		let searchContainer = document.getElementById("search-bar-container");
+		searchSubmit.addEventListener("mouseenter", () => {
+			searchBar.style.display = "inline-block";
+		}, false);
+		searchContainer.addEventListener("mouseleave", () => {
+			searchBar.style.display = "none";
+		}, false);
 	</script>
 </body>
 </html>
