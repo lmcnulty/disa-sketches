@@ -1,82 +1,119 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8" />
-<title>Database of Indigenous Slavery in The Americas</title>
-<style>
-	body, html {margin: 0px; height: 100%; position: relative;}
-	body {
-		background-color: whitesmoke;
-		font-family: sans-serif;
-	}
-	header {
-		position: fixed;
-		top: 0px;
-		background-color: white;
-		width: calc(100% - 200px);
-		padding: 10px 100px 10px 100px;
-		box-shadow: 0px 0px 2px 3px rgba(0, 0, 0, .3);
-		display: flex;
-		align-items: center;
-		height: 50px;
-		z-index: 100;
-	}
-	header h1 {
-		display: inline;
-		margin: 0px;
-		margin-left: 10px;
-		margin-right: 10px;
-	}
-	header a {
-		margin-left: 10px;
-		margin-right: 10px;
-		font-size: 14pt;
-		color: black;
-	}
-	main {
-		position: absolute;
-		top: 70px;	
-	}
-	main section {
-		padding: 40px 110px 40px 110px;
-		/*outline: 2px solid black;*/
-		background-color: #E4E4E4; /*lightgrey;*/
-		overflow: auto;
-		font-size: 12pt;
-		line-height: 1.6;
-	}
-	main section:nth-child(3n+2) {
-		background-color: #7B8866 /*#4C804C*/;
-		color: white;
-	}
-	main section:nth-child(3n+2) a {
-		color: gold;
-	}
-	main section:nth-child(3n+0) {
-		background-color: #5C617D /*#4C804C*/;
-		color: white;
-	}
-	main section:nth-child(3n+0) a {
-		color: gold;
-	}
-	#goto-button {
-		margin-right: 10px;
-		margin-left: auto;
-		background: #111 /*#4C804C; /*#3BBC3B*/;
-		color: white;
-		border: 2px solid #5A7B5A/*green /*#6FD26F*/;
-		/*border-radius: 5px;*/
-		padding: 7px;
-		font-size: 14pt;
-		font-weight: bold;
-	}
-	img {
-		max-width: 100%;
-	}
-	.floating-image-container {
-		max-width: 400px;
-	}
-</style>
+	<meta charset="utf-8" />
+	<title>Database of Indigenous Slavery in the Americas</title>
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+		body {
+			margin: 0px;
+			font-family: roboto;
+		}
+		#intro {
+			height: 100vh;
+			padding-top: 100px;
+			background: #333;
+			color: white;
+			background: url(workers.jpg);
+			background-size: cover;
+			position: relative;
+		}
+		#intro > .intro-content {
+			background: rgba(0, 0, 0, .3);
+			position: absolute;
+			top: 0px;
+			bottom: 0px;
+			left: 0px;
+			right: 0px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		#intro .content {
+			max-width: 600px;
+			margin-top: -40px;
+			text-align: center;
+		}
+		#intro .content h1 {
+			font-size: 32pt;
+			margin: 0px;
+		}
+		#intro .content .subtitle {
+			font-size: 20pt;
+			font-weight: 100;
+			margin-top: 1em;
+			margin-bottom: 1.5em;
+		}
+		#home {
+		}
+		header {
+			color: white;
+			z-index: 10000;
+			position: fixed;
+			height: 75px;
+			top: 0px;
+			left: 0px;
+			width: 100%;
+			display: flex;
+			align-items: center;
+			padding-left: 20px;
+			padding-right: 20px;
+			background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, 0));
+			text-shadow: 0px 1px rgba(0, 0, 0, .3);
+		}
+		header > h1 {
+			margin-right: auto;
+		}
+		header > a {
+			vertical-align: middle;
+			color: white;
+			margin-left: 10px;
+			margin-right: 10px;
+			text-decoration: none;
+			border-bottom: 1px solid rgba(255, 255, 255, 0);
+			transition: all .2s linear;
+			font-size: 14pt;
+		}
+		header > a:hover {
+			border-bottom: 1px solid white;
+		}
+		header > button {
+			margin-left: auto;
+			height: 40px;
+		}
+		#premier-button {
+			background: white;
+			color: black;
+			border: 0px;
+			box-shadow: 0px 0px 1px 1px rgba(256, 256, 256, .5);
+			border-radius: 5px;
+			padding: 20px 40px 20px 40px;
+			font-size: 14pt;
+			transition: all .2s ease-in;
+		}
+		#premier-button:hover {
+			box-shadow: 0px 0px 3px 3px rgba(256, 256, 256, .5);
+		}
+		section {
+			box-sizing: border-box;
+			padding: 20px;
+		}
+		section .entry-content {
+			max-width: 800px;
+			margin: auto;
+		}
+		.narrow-container {
+			max-width: 800px;
+			margin: auto;
+		}
+		h2 {
+			max-width: 800px;
+			margin: auto;
+		}
+
+	</style>
 </head>
 <body>
 	<header>
@@ -86,24 +123,26 @@
 		<a href="#contact">Contact</a>
 		<a href="#blog">Blog</a>
 		<a href="#contribute">Contribute</a>
-		<button id="goto-button">View Database</button>
 	</header>
 	<main>
-		<section id="home">
-			<div class="floating-image-container" style="float: left; margin-right: 40px;">
-				<img src="caribbean1.png">
+		<section id="intro">
+			<div class="intro-content">
+				<div class="content">
+					<h1>Database of Indigenous Slavery in the Americas</h1>
+					<div class="subtitle">
+					A nice sounding subtitle
+					</div>
+					<div class="button-container">
+						<button id="premier-button">Go to Database</button>
+					</div>
+				</div>
 			</div>
-			<h2>Home</h2>
-			<p>Welcome to the Database of Indigenous Slavery in the Americas (DISA). This project, housed at Brown University, is a collaborative effort to build a database of enslaved indigenous people throughout time all across the Americas. Please note that this site is under construction, and the database does not yet have a public portal. We are actively working on this project, however, and and are looking for volunteers and scholars to contribute materials. We invite you to scroll down or visit our About page to learn more about the project and how to contribute.</p>
-		</section>	
+		</section>
 		<section id="about">
-			
 			<h2 class="entry-title">About</h2>
 			<div class="entry-content">
 				
-				<p><strong>The concept:</strong></p>
 				<div class="floating-image-container" style="float: right; margin-left: 40px;">
-				<img src="provinciae.png">
 			</div>
 <p>The Database of Indigenous Slavery in the Americas (DISA), is a database that seeks to document as many instances of indigenous enslavement in the Americas between 1492 and 1900 (and beyond, where relevant).<strong>&nbsp;</strong>The hemispheric study of Native American slavery represents cutting-edge research in multi-lingual and multi-national contexts in the Americas. Scholars now estimate that between 2.5 and 5 million Natives were enslaved in the Americas between 1492 and the late nineteenth century – an astonishing number by any measure (even compared to the approximately 12 million Africans who were brought as slaves from Africa in this same time period). DISA will allow the slow centralization of biographical information related to enslaved indigenous people and place them online where historians, researchers, students, tribal members, and families can use the information to reconstruct histories, chart networks, and make connections in ways that have never before been possible.</p>
 <p><strong>Timeline:</strong></p>
@@ -153,51 +192,56 @@
 <li>Tall Oak Weeden, historian and activist, Wampanoag and Pequot</li>
 		</section>
 				<section id="blog">
+				<div class="narrow-container">
 		<h2>Latest Blog Entry</h2>
 		<h3>DISA: a brief introduction and update </h3>
 		<p>Greetings, and thanks for visiting this site. The idea for a database that centralizes all known biographical information about known instances of indigenous slavery in the Americas has been percolating for some time. In 2015 I began to slowly apply for small amounts of funding internally here at Brown to take the first steps towards amassing data and building a website. I’m grateful that the Center for Digital Scholarship here at Brown has been willing to generously help out in terms of computer programming and tech support... [<a href="">Continue</a>]</p>
 		<p><a href="">View all Blog Posts</a></p>
+		</div>
 		</section>
 <section id="contribute">
-<h1 class="entry-title">Contribute</h1>			</header><!-- .entry-header -->
+<div class="narrow-container">
+<h1 class="entry-title">Contribute</h1>
 	<div class="entry-content">
 		<p><strong>How to contribute:</strong></p>
 <p>In this early phase, the database is not yet public. While we are working on funding, a small team of researchers is slowly adding to the database. You can contribute to this project by sending us any and all listings or spreadsheets of indigenous slaves that you have compiled in your own research. Please email them to: linford_fisher@brown.edu</p>
+		</div>
 		</section>
 <section id="contact">
+		<div class="narrow-container">
 		<h1 class="entry-title">Contact</h1>				<div class="entry-content">
 		<p>We’d love to hear from you. Feel free to use the form below to provide feedback on the site or to contact us if you have information for our database.</p>
 <div id="contact-form-3">
 <form action="https://indigenousslavery.org/contact/#contact-form-3" method="post" class="contact-form commentsblock">
-
-<div>
-		<label for="g3-name" class="grunion-field-label name">Name<span>(required)</span></label>
-		<input name="g3-name" id="g3-name" value="" class="name" required="" aria-required="true" type="text">
-	</div>
-
-<div>
-		<label for="g3-email" class="grunion-field-label email">Email<span>(required)</span></label>
-		<input name="g3-email" id="g3-email" value="" class="email" required="" aria-required="true" type="email">
-	</div>
-
-<div>
-		<label for="g3-website" class="grunion-field-label url">Website</label>
-		<input name="g3-website" id="g3-website" value="" class="url" type="url">
-	</div>
-
-<div>
-		<label for="contact-form-comment-g3-comment" class="grunion-field-label textarea">Comment<span>(required)</span></label>
-		<textarea name="g3-comment" id="contact-form-comment-g3-comment" rows="20" class="textarea" required="" aria-required="true"></textarea>
-	</div>
-	<p class="contact-submit">
-		<input value="Submit »" class="pushbutton-wide" type="submit">
-		<input name="contact-form-id" value="3" type="hidden">
-		<input name="action" value="grunion-contact-form" type="hidden">
-		<input name="contact-form-hash" value="6c040f6a54d08b15498e9bfb7b96b14497ae1c45" type="hidden">
-	</p>
+	<table>	
+		<tr>
+			<td><label for="g3-name" class="grunion-field-label name">Name <span>(required)</span></label></td>
+			<td><input name="g3-name" id="g3-name" value="" class="name" required="" aria-required="true" type="text"></td>
+		</tr>
+		<tr>
+			<td><label for="g3-email" class="grunion-field-label email">Email <span>(required)</span></label></td>
+			<td><input name="g3-email" id="g3-email" value="" class="email" required="" aria-required="true" type="email"></td>
+		</tr>
+		<tr>
+			<td><label for="g3-website" class="grunion-field-label url">Website </label></td>
+			<td><input name="g3-website" id="g3-website" value="" class="url" type="url"></td>
+		</tr>
+		<tr>
+			<td><label for="contact-form-comment-g3-comment" class="grunion-field-label textarea">Comment <span>(required)</span></label></td>
+			<td><textarea name="g3-comment" id="contact-form-comment-g3-comment" rows="20" class="textarea" required="" aria-required="true" style="width: 500px; height: 150px;"></textarea></td>
+		</tr>
+		<tr>
+			<td>
+			<input value="Submit »" class="pushbutton-wide" type="submit">
+			<input name="contact-form-id" value="3" type="hidden">
+			<input name="action" value="grunion-contact-form" type="hidden">
+			<input name="contact-form-hash" value="6c040f6a54d08b15498e9bfb7b96b14497ae1c45" type="hidden">
+			</td>
+		</tr>
+	</table>
 </form>
 </div>
-<div class="sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded" id="like-post-wrapper-136731894-3-5b6c864959753" data-src="https://widgets.wp.com/likes/#blog_id=136731894&amp;post_id=3&amp;origin=indigenousslavery.org&amp;obj_id=136731894-3-5b6c864959753" data-name="like-post-frame-136731894-3-5b6c864959753"><h3 class="sd-title">Like this:</h3><div class="likes-widget-placeholder post-likes-widget-placeholder" style="height: 55px;"><span class="button"><span>Like</span></span> <span class="loading">Loading...</span></div><span class="sd-text-color"></span><a class="sd-link-color"></a></div>	</div><!-- .entry-content -->
+</div>
 </section>
 
 	</main>
