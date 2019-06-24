@@ -4,6 +4,7 @@ echo "<!doctype html>
 <html>
 <head>
 <meta charset='utf-8'>
+<title>Disa Sketches</title>
 <style>
 html {
 	margin: 0px;
